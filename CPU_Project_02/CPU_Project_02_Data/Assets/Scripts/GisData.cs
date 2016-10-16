@@ -70,7 +70,7 @@ public class GisData : MonoBehaviour
         foreach (XmlNode xmlNodeI in nodeList)
         {
             //## wait 1 frame before adding a cylinder
-            yield return new WaitForEndOfFrame();
+            //yield return new WaitForEndOfFrame();
 
             //Assign variables from xml too c# vars
             float gisZ = float.Parse(xmlNodeI["X"].InnerText);
@@ -107,7 +107,7 @@ public class GisData : MonoBehaviour
 
             
             //create a new ward
-            Ward newWard = new Ward("test",gisX,gisZ, inverseScale,censusData);
+            Ward newWard = new Ward(xmlNodeI["name"].InnerText,gisX,gisZ, inverseScale,censusData);
             newWard.Initiate();
 
 
