@@ -1,0 +1,20 @@
+﻿<Root>
+<Row>
+  <Location>Bury Interchange</Location>
+  <TimeA type ="number">359</TimeA>
+  <TimeB>2156</TimeB>
+  <TimeC>2635</TimeC>
+  <TimeD>1700</TimeD>
+  <TimeE>2742</TimeE>
+  <TimeF>1184</TimeF>
+</Row>
+<Row>
+  <Location>Radcliffe</Location>
+  <TimeA>253</TimeA>
+  <TimeB>960</TimeB>
+  <TimeC>928</TimeC>
+  <TimeD>834</TimeD>
+  <TimeE>1252</TimeE>
+  <TimeF>643</TimeF>
+</Row>
+</Root>
