@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Row name =" Abram" >
+	<X>360670.818911459</X>
+	<Y>402003.075770711</Y>
+</Row>
+
+  <Row name =" b" >
+    <X>360670.818911459</X>
+    <Y>402003.075770711</Y>
+  </Row>
+  
+  </Root>
