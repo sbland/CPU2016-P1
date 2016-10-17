@@ -46,9 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
+     <None Include="Assets\Data\GreaterManchester_WARD_Points.xml" />
      <None Include="Assets\JSON\readme.txt" />
+     <None Include="Assets\Data\GreaterManchester_WARD_Points_PlusData.xml" />
+     <None Include="Assets\Data\GreaterManchester_OA_Points.xml" />
      <None Include="Assets\Data\XmlTest.xml" />
-     <None Include="Assets\Data\TramData.xml" />
+     <None Include="Assets\Data\Manchester_OA_Points.xml" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
