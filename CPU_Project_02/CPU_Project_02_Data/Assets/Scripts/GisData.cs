@@ -30,6 +30,8 @@ public class GisData : MonoBehaviour
     public TextAsset[] gisDataFiles;
     public TextMesh textTitle;
     public Text loadingText;
+
+    
     
 
 
@@ -146,4 +148,74 @@ public class GisData : MonoBehaviour
         loadingText.text = "";
         yield break;
     }//end LoadingCoroutine
+
+
+    public void UpdateWardTravelByCar()
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("travelByCar");
+        }
+    }
+
+    public void UpdateWardTravelByBus()
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("travelByBus");
+        }
+    }
+    public void UpdateWardTravelByTram()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("travelByTram");
+        }
+    }
+
+    public void UpdateWardTravelByBike()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("travelByBike");
+        }
+    }
+
+    public void UpdateWardTravelByFoot()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("travelByFoot");
+        }
+    }
+
+    public void UpdateWardStudentFT()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("StudentFT");
+        }
+    }
+
+    public void UpdateWardEmployedFT()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("EmployedFT");
+        }
+    }
+
+    public void UpdateWardEmployedPT()
+
+    {
+        foreach (Ward ward in GisDataObjects.wards)
+        {
+            ward.UpdateFromData("EmployedPT");
+        }
+    }
 }

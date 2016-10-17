@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MouseOver.cs" />
+    <Compile Include="Assets\Prefabs\Scripts\Rotate_Constant.cs" />
     <Compile Include="Assets\Scripts\Bus.cs" />
     <Compile Include="Assets\Scripts\BusStop.cs" />
     <Compile Include="Assets\Scripts\DataHolder.cs" />
