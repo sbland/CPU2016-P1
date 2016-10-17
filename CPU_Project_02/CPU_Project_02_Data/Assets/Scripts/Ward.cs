@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 
 
@@ -10,17 +11,17 @@ public class Ward
     public string wardName;
     public float latitude;
     public float longitude;
-    public float cylinderSize;
     public Dictionary<string, float> censusDataDictLocal;
-
+    float cylinderSize = 2000 / GisDataStatics.scale; // This sets the size of the cylinder based on the scale of the model
+    GameObject cylinder;
 
     //Ward Constructor
-    public Ward (string wardNameIn, float latIn, float longIn, Dictionary<string, float> dataArrayIn, float cylinderSizeIn)
+    public Ward (string wardNameIn, float latIn, float longIn, Dictionary<string, float> dataArrayIn)
     {
         wardName = wardNameIn;
         latitude = latIn;
         longitude = longIn;
-        cylinderSize = cylinderSizeIn;
+        //cylinderSize = cylinderSizeIn;
         censusDataDictLocal = dataArrayIn;
     }
 
@@ -28,7 +29,7 @@ public class Ward
 
     public void Initiate ()
     {
-        GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+        cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         cylinder.name = wardName;
 
         //offset and rescale
@@ -37,12 +38,22 @@ public class Ward
 
         latitude = latitude / GisDataStatics.scale;
         longitude = longitude / GisDataStatics.scale;
-
+        
 
 
         cylinder.transform.position = new Vector3(latitude, censusDataDictLocal["travelByTram"], longitude);
         cylinder.transform.localScale = new Vector3(cylinderSize, censusDataDictLocal["travelByTram"], cylinderSize);
     }
 
-   
+    public void UpdateFromData(string inputName)
+    {
+        float width = cylinderSize-(censusDataDictLocal[inputName]/100);
+
+        cylinder.transform.position = new Vector3(latitude, censusDataDictLocal[inputName], longitude);
+        cylinder.transform.localScale = new Vector3(width, censusDataDictLocal[inputName], width);
+
+
+
+    }
+
 }

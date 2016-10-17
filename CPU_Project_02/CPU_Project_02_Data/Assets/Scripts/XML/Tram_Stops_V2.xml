@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Tram_Stops">
+	<Row name="Altrincham Interchange">
+		<X>377008</X>
+		<Y>387924</Y>
+	</Row>
+	<Row name="Ardwick">
+		<X>385934</X>
+		<Y>397183</Y>
+	</Row>
+	<Row name="Ashburys">
+		<X>387150</X>
+		<Y>397253</Y>
+	</Row>
+	<Row name="Ashton Under Lyne">
+		<X>393839</X>
+		<Y>399399</Y>
+	</Row>
+	<Row name="Atherton">
+		<X>368412</X>
+		<Y>403710</Y>
+	</Row>
+	<Row name="Burnage">
+		<X>385794</X>
+		<Y>391705</Y>
+	</Row>
+	<Row name="Belle Vue">
+		<X>388134</X>
+		<Y>396129</Y>
+	</Row>
+	<Row name="Blackrod">
+		<X>362381</X>
+		<Y>410661</Y>
+	</Row>
+	<Row name="Bramhall">
+		<X>389248</X>
+		<Y>384864</Y>
+	</Row>
+	<Row name="Bolton Interchange">
+		<X>371944</X>
+		<Y>408633</Y>
+	</Row>
+	<Row name="Broadbottom">
+		<X>398993</X>
+		<Y>393778</Y>
+	</Row>
+	<Row name="Bredbury">
+		<X>392751</X>
+		<Y>391812</Y>
+	</Row>
+	<Row name="Bromley Cross">
+		<X>372925</X>
+		<Y>413125</Y>
+	</Row>
+	<Row name="Brinnington">
+		<X>391188</X>
+		<Y>392803</Y>
+	</Row>
+	<Row name="Bryn">
+		<X>357131</X>
+		<Y>400521</Y>
+	</Row>
+	<Row name="Chassen Road">
+		<X>375644</X>
+		<Y>394442</Y>
+	</Row>
+	<Row name="Cheadle Hulme">
+		<X>387574</X>
+		<Y>386597</Y>
+	</Row>
+	<Row name="Clifton">
+		<X>379281</X>
+		<Y>402886</Y>
+	</Row>
+	<Row name="Castleton">
+		<X>388307</X>
+		<Y>410634</Y>
+	</Row>
+	<Row name="Daisy Hill">
+		<X>365946</X>
+		<Y>404869</Y>
+	</Row>
+	<Row name="Davenport">
+		<X>389954</X>
+		<Y>388237</Y>
+	</Row>
+	<Row name="Denton">
+		<X>391430</X>
+		<Y>395664</Y>
+	</Row>
+	<Row name="Eccles">
+		<X>377977</X>
+		<Y>398810</Y>
+	</Row>
+	<Row name="East Didsbury">
+		<X>385340</X>
+		<Y>390299</Y>
+	</Row>
+	<Row name="Flixton">
+		<X>374624</X>
+		<Y>394180</Y>
+	</Row>
+	<Row name="Flowery Field">
+		<X>394770</X>
+		<Y>396078</Y>
+	</Row>
+	<Row name="Fairfield">
+		<X>390475</X>
+		<Y>397183</Y>
+	</Row>
+	<Row name="Farnworth">
+		<X>374372</X>
+		<Y>406036</Y>
+	</Row>
+	<Row name="Gathurst">
+		<X>354111</X>
+		<Y>407210</Y>
+	</Row>
+	<Row name="Gatley">
+		<X>384747</X>
+		<Y>388478</Y>
+	</Row>
+	<Row name="Greenfield">
+		<X>399165</X>
+		<Y>404687</Y>
+	</Row>
+	<Row name="Guide Bridge">
+		<X>392534</X>
+		<Y>397540</Y>
+	</Row>
+	<Row name="Godley">
+		<X>396398</X>
+		<Y>395056</Y>
+	</Row>
+	<Row name="Gorton">
+		<X>388997</X>
+		<Y>396930</Y>
+	</Row>
+	<Row name="Hag Fold">
+		<X>367359</X>
+		<Y>404216</Y>
+	</Row>
+	<Row name="Hale">
+		<X>376981</X>
+		<Y>386906</Y>
+	</Row>
+	<Row name="Hattersley">
+		<X>397418</X>
+		<Y>394277</Y>
+	</Row>
+	<Row name="Hazel Grove">
+		<X>391933</X>
+		<Y>386773</Y>
+	</Row>
+	<Row name="Hindley">
+		<X>361972</X>
+		<Y>405232</Y>
+	</Row>
+	<Row name="Hall I'Th' Wood">
+		<X>372754</X>
+		<Y>411261</Y>
+	</Row>
+	<Row name="Heald Green">
+		<X>384348</X>
+		<Y>385862</Y>
+	</Row>
+	<Row name="Humphrey Park">
+		<X>378334</X>
+		<Y>395105</Y>
+	</Row>
+	<Row name="Horwich Parkway">
+		<X>364377</X>
+		<Y>409181</Y>
+	</Row>
+	<Row name="Heaton Chapel">
+		<X>388203</X>
+		<Y>392107</Y>
+	</Row>
+	<Row name="Hyde Central">
+		<X>394447</X>
+		<Y>394967</Y>
+	</Row>
+	<Row name="Hyde North">
+		<X>394446</X>
+		<Y>396447</Y>
+	</Row>
+	<Row name="Ince">
+		<X>359513</X>
+		<Y>404886</Y>
+	</Row>
+	<Row name="Irlam">
+		<X>371345</X>
+		<Y>393135</Y>
+	</Row>
+	<Row name="Kearsley">
+		<X>375210</X>
+		<Y>405390</Y>
+	</Row>
+	<Row name="Littleborough">
+		<X>393847</X>
+		<Y>416278</Y>
+	</Row>
+	<Row name="Lostock">
+		<X>367378</X>
+		<Y>408604</Y>
+	</Row>
+	<Row name="Levenshulme">
+		<X>387295</X>
+		<Y>394195</Y>
+	</Row>
+	<Row name="Marple">
+		<X>396273</X>
+		<Y>389354</Y>
+	</Row>
+	<Row name="Middlewood">
+		<X>394540</X>
+		<Y>384802</Y>
+	</Row>
+	<Row name="Mauldeth Road">
+		<X>386214</X>
+		<Y>392988</Y>
+	</Row>
+	<Row name="Mills Hill">
+		<X>388736</X>
+		<Y>406060</Y>
+	</Row>
+	<Row name="Deansgate">
+		<X>383427</X>
+		<Y>397514</Y>
+	</Row>
+	<Row name="Manchester Airport Rail Station">
+		<X>381955</X>
+		<Y>385391</Y>
+	</Row>
+	<Row name="Manchester Oxford Road">
+		<X>384018</X>
+		<Y>397476</Y>
+	</Row>
+	<Row name="Manchester Piccadilly">
+		<X>384800</X>
+		<Y>397839</Y>
+	</Row>
+	<Row name="Manchester United Football Ground">
+		<X>380795</X>
+		<Y>396199</Y>
+	</Row>
+	<Row name="Manchester Victoria">
+		<X>383978</X>
+		<Y>399051</Y>
+	</Row>
+	<Row name="Mossley">
+		<X>397357</X>
+		<Y>402026</Y>
+	</Row>
+	<Row name="Moorside">
+		<X>376740</X>
+		<Y>402240</Y>
+	</Row>
+	<Row name="Moses Gate">
+		<X>373510</X>
+		<Y>406690</Y>
+	</Row>
+	<Row name="Moston">
+		<X>388759</X>
+		<Y>402975</Y>
+	</Row>
+	<Row name="Navigation Road">
+		<X>377267</X>
+		<Y>388819</Y>
+	</Row>
+	<Row name="Newton For Hyde">
+		<X>395652</X>
+		<Y>395537</Y>
+	</Row>
+	<Row name="Orrell">
+		<X>353088</X>
+		<Y>403956</Y>
+	</Row>
+	<Row name="Pemberton">
+		<X>355695</X>
+		<Y>403966</Y>
+	</Row>
+	<Row name="Patricroft">
+		<X>376417</X>
+		<Y>398741</Y>
+	</Row>
+	<Row name="Rochdale">
+		<X>389940</X>
+		<Y>412640</Y>
+	</Row>
+	<Row name="Reddish North">
+		<X>389721</X>
+		<Y>394763</Y>
+	</Row>
+	<Row name="Reddish South">
+		<X>389567</X>
+		<Y>393265</Y>
+	</Row>
+	<Row name="Rose Hill">
+		<X>395010</X>
+		<Y>388800</Y>
+	</Row>
+	<Row name="Romiley">
+		<X>394160</X>
+		<Y>390803</Y>
+	</Row>
+	<Row name="Ryder Brow">
+		<X>388565</X>
+		<Y>395577</Y>
+	</Row>
+	<Row name="Stalybridge">
+		<X>395895</X>
+		<Y>398630</Y>
+	</Row>
+	<Row name="Salford Crescent">
+		<X>381798</X>
+		<Y>398897</Y>
+	</Row>
+	<Row name="Salford Central">
+		<X>383139</X>
+		<Y>398487</Y>
+	</Row>
+	<Row name="Smithy Bridge">
+		<X>392568</X>
+		<Y>415166</Y>
+	</Row>
+	<Row name="Stockport">
+		<X>389257</X>
+		<Y>389868</Y>
+	</Row>
+	<Row name="Swinton">
+		<X>377745</X>
+		<Y>402067</Y>
+	</Row>
+	<Row name="Trafford Park">
+		<X>379399</X>
+		<Y>395380</Y>
+	</Row>
+	<Row name="Urmston">
+		<X>376600</X>
+		<Y>394670</Y>
+	</Row>
+	<Row name="Walkden">
+		<X>373830</X>
+		<Y>402640</Y>
+	</Row>
+	<Row name="Wigan North Western">
+		<X>358130</X>
+		<Y>405376</Y>
+	</Row>
+	<Row name="Wigan Wallgate">
+		<X>358125</X>
+		<Y>405540</Y>
+	</Row>
+	<Row name="Woodsmoor">
+		<X>390682</X>
+		<Y>387719</Y>
+	</Row>
+	<Row name="Woodley">
+		<X>393931</X>
+		<Y>392499</Y>
+	</Row>
+	<Row name="Westhoughton">
+		<X>365441</X>
+		<Y>406713</Y>
+	</Row>
+	<Row name="Abraham Moss">
+		<X>384485</X>
+		<Y>401560</Y>
+	</Row>
+	<Row name="Manchester Airport">
+		<X>381968</X>
+		<Y>385418</Y>
+	</Row>
+	<Row name="Altrincham">
+		<X>377000</X>
+		<Y>387900</Y>
+	</Row>
+	<Row name="Ashton Moss">
+		<X>392002</X>
+		<Y>398548</Y>
+	</Row>
+	<Row name="Anchorage">
+		<X>381113</X>
+		<Y>397545</Y>
+	</Row>
+	<Row name="Audenshaw">
+		<X>391397</X>
+		<Y>397949</Y>
+	</Row>
+	<Row name="Ashton-Under-Lyne">
+		<X>393593</X>
+		<Y>399295</Y>
+	</Row>
+	<Row name="Ashton West">
+		<X>392817</X>
+		<Y>399285</Y>
+	</Row>
+	<Row name="Baguley">
+		<X>380646</X>
+		<Y>388894</Y>
+	</Row>
+	<Row name="Barlow Moor Road">
+		<X>382202</X>
+		<Y>392926</Y>
+	</Row>
+	<Row name="Brooklands">
+		<X>378423</X>
+		<Y>391192</Y>
+	</Row>
+	<Row name="Benchill">
+		<X>383056</X>
+		<Y>387834</Y>
+	</Row>
+	<Row name="Burton Road">
+		<X>384104</X>
+		<Y>392515</Y>
+	</Row>
+	<Row name="Besses O'Th'Barn">
+		<X>381140</X>
+		<Y>405070</Y>
+	</Row>
+	<Row name="Bowker Vale">
+		<X>383525</X>
+		<Y>403170</Y>
+	</Row>
+	<Row name="Bury">
+		<X>380431</X>
+		<Y>410522</Y>
+	</Row>
+	<Row name="Broadway">
+		<X>380520</X>
+		<Y>397606</Y>
+	</Row>
+	<Row name="Cemetery Road">
+		<X>389810</X>
+		<Y>398136</Y>
+	</Row>
+	<Row name="Chorlton">
+		<X>381935</X>
+		<Y>394042</Y>
+	</Row>
+	<Row name="Clayton Hall">
+		<X>388009</X>
+		<Y>398467</Y>
+	</Row>
+	<Row name="Cornbrook">
+		<X>382335</X>
+		<Y>397060</Y>
+	</Row>
+	<Row name="Crumpsall">
+		<X>384113</X>
+		<Y>402322</Y>
+	</Row>
+	<Row name="Crossacres">
+		<X>383052</X>
+		<Y>387421</Y>
+	</Row>
+	<Row name="Central Park">
+		<X>386882</X>
+		<Y>400564</Y>
+	</Row>
+	<Row name="Derker">
+		<X>393364</X>
+		<Y>405913</Y>
+	</Row>
+	<Row name="Didsbury Village">
+		<X>384906</X>
+		<Y>391127</Y>
+	</Row>
+	<Row name="Dane Road">
+		<X>379412</X>
+		<Y>392657</Y>
+	</Row>
+	<Row name="Droylsden">
+		<X>390496</X>
+		<Y>398089</Y>
+	</Row>
+	<Row name="Eccles">
+		<X>377899</X>
+		<Y>398533</Y>
+	</Row>
+	<Row name="Etihad Campus">
+		<X>386737</X>
+		<Y>398757</Y>
+	</Row>
+	<Row name="East Didsbury">
+		<X>385656</X>
+		<Y>390603</Y>
+	</Row>
+	<Row name="Edge Lane">
+		<X>389132</X>
+		<Y>398249</Y>
+	</Row>
+	<Row name="Exchange Quay">
+		<X>381356</X>
+		<Y>396824</Y>
+	</Row>
+	<Row name="Exchange Square">
+		<X>383994</X>
+		<Y>398665</Y>
+	</Row>
+	<Row name="Firswood">
+		<X>381654</X>
+		<Y>394982</Y>
+	</Row>
+	<Row name="Freehold">
+		<X>390940</X>
+		<Y>404559</Y>
+	</Row>
+	<Row name="Failsworth">
+		<X>389292</X>
+		<Y>401559</Y>
+	</Row>
+	<Row name="Deansgate - Castlefield">
+		<X>383431</X>
+		<Y>397585</Y>
+	</Row>
+	<Row name="Harbour City">
+		<X>380761</X>
+		<Y>397515</Y>
+	</Row>
+	<Row name="Heaton Park">
+		<X>382387</X>
+		<Y>403791</Y>
+	</Row>
+	<Row name="Hollinwood">
+		<X>390318</X>
+		<Y>402583</Y>
+	</Row>
+	<Row name="Holt Town">
+		<X>386016</X>
+		<Y>398519</Y>
+	</Row>
+	<Row name="Kingsway Business Park">
+		<X>391903</X>
+		<Y>412735</Y>
+	</Row>
+	<Row name="Ladywell">
+		<X>378414</X>
+		<Y>398634</Y>
+	</Row>
+	<Row name="Langworthy">
+		<X>380456</X>
+		<Y>398249</Y>
+	</Row>
+	<Row name="Mediacityuk">
+		<X>380391</X>
+		<Y>397322</Y>
+	</Row>
+	<Row name="Martinscroft">
+		<X>381488</X>
+		<Y>388373</Y>
+	</Row>
+	<Row name="Milnrow">
+		<X>392681</X>
+		<Y>412399</Y>
+	</Row>
+	<Row name="Market Street">
+		<X>384251</X>
+		<Y>398380</Y>
+	</Row>
+	<Row name="Monsall">
+		<X>386122</X>
+		<Y>400506</Y>
+	</Row>
+	<Row name="Moor Road">
+		<X>380471</X>
+		<Y>389661</Y>
+	</Row>
+	<Row name="Navigation Road">
+		<X>377267</X>
+		<Y>388819</Y>
+	</Row>
+	<Row name="Newbold">
+		<X>391132</X>
+		<Y>412988</Y>
+	</Row>
+	<Row name="Newton Heath &amp; Moston">
+		<X>387850</X>
+		<Y>400840</Y>
+	</Row>
+	<Row name="Newhey">
+		<X>393820</X>
+		<Y>411591</Y>
+	</Row>
+	<Row name="New Islington">
+		<X>385512</X>
+		<Y>398283</Y>
+	</Row>
+	<Row name="Northern Moor">
+		<X>380940</X>
+		<Y>390895</Y>
+	</Row>
+	<Row name="Oldham King Street">
+		<X>392331</X>
+		<Y>404774</Y>
+	</Row>
+	<Row name="Old Trafford">
+		<X>381202</X>
+		<Y>395556</Y>
+	</Row>
+	<Row name="Oldham Central">
+		<X>392663</X>
+		<Y>404852</Y>
+	</Row>
+	<Row name="Oldham Mumps">
+		<X>393243</X>
+		<Y>405088</Y>
+	</Row>
+	<Row name="Piccadilly Gardens">
+		<X>384378</X>
+		<Y>398191</Y>
+	</Row>
+	<Row name="Piccadilly">
+		<X>384769</X>
+		<Y>397855</Y>
+	</Row>
+	<Row name="Peel Hall">
+		<X>383437</X>
+		<Y>386344</Y>
+	</Row>
+	<Row name="Pomona">
+		<X>381644</X>
+		<Y>396530</Y>
+	</Row>
+	<Row name="Prestwich">
+		<X>381407</X>
+		<Y>404115</Y>
+	</Row>
+	<Row name="Queens Road">
+		<X>385063</X>
+		<Y>400579</Y>
+	</Row>
+	<Row name="Radcliffe">
+		<X>378835</X>
+		<Y>407345</Y>
+	</Row>
+	<Row name="Rochdale">
+		<X>389823</X>
+		<Y>413430</Y>
+	</Row>
+	<Row name="Roundthorn">
+		<X>380868</X>
+		<Y>388456</Y>
+	</Row>
+	<Row name="Rochdale Railway Station">
+		<X>389879</X>
+		<Y>412728</Y>
+	</Row>
+	<Row name="Robinswood Road">
+		<X>382898</X>
+		<Y>386636</Y>
+	</Row>
+	<Row name="South Chadderton">
+		<X>390467</X>
+		<Y>403325</Y>
+	</Row>
+	<Row name="Shadowmoss">
+		<X>383295</X>
+		<Y>385662</Y>
+	</Row>
+	<Row name="Stretford">
+		<X>379920</X>
+		<Y>394410</Y>
+	</Row>
+	<Row name="Shaw And Crompton">
+		<X>394168</X>
+		<Y>408842</Y>
+	</Row>
+	<Row name="Shudehill">
+		<X>384233</X>
+		<Y>398750</Y>
+	</Row>
+	<Row name="Sale">
+		<X>378909</X>
+		<Y>392006</Y>
+	</Row>
+	<Row name="Salford Quays">
+		<X>381247</X>
+		<Y>397105</Y>
+	</Row>
+	<Row name="St Peter'S Square">
+		<X>383920</X>
+		<Y>397925</Y>
+	</Row>
+	<Row name="St Werburgh'S Road">
+		<X>382465</X>
+		<Y>393580</Y>
+	</Row>
+	<Row name="Sale Water Park">
+		<X>380773</X>
+		<Y>392420</Y>
+	</Row>
+	<Row name="Timperley">
+		<X>377609</X>
+		<Y>389796</Y>
+	</Row>
+	<Row name="Trafford Bar">
+		<X>381703</X>
+		<Y>396156</Y>
+	</Row>
+	<Row name="Victoria">
+		<X>384043</X>
+		<Y>398990</Y>
+	</Row>
+	<Row name="Velopark">
+		<X>387288</X>
+		<Y>398411</Y>
+	</Row>
+	<Row name="Whitefield">
+		<X>380535</X>
+		<Y>406105</Y>
+	</Row>
+	<Row name="Withington">
+		<X>383527</X>
+		<Y>392919</Y>
+	</Row>
+	<Row name="Wythenshawe Park">
+		<X>380442</X>
+		<Y>390134</Y>
+	</Row>
+	<Row name="Weaste">
+		<X>379658</X>
+		<Y>398461</Y>
+	</Row>
+	<Row name="West Didsbury">
+		<X>384412</X>
+		<Y>391989</Y>
+	</Row>
+	<Row name="Westwood">
+		<X>391756</X>
+		<Y>405081</Y>
+	</Row>
+	<Row name="Wythenshawe Town Centre">
+		<X>382552</X>
+		<Y>387050</Y>
+	</Row>
+</Root>
