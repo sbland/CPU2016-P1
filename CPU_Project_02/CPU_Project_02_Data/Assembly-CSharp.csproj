@@ -45,16 +45,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\JSON\JSONObject.cs" />
-     <Compile Include="Assets\JSON\JSONTemplates.cs" />
-     <Compile Include="Assets\JSON\VectorTemplates.cs" />
-     <Compile Include="Assets\Scripts\ReadData.cs" />
-     <Compile Include="Assets\Scripts\ReadDataXML.cs" />
+     <Compile Include="Assets\MouseOver.cs" />
+     <Compile Include="Assets\Scripts\Bus.cs" />
+     <Compile Include="Assets\Scripts\BusStop.cs" />
+     <Compile Include="Assets\Scripts\DataHolder.cs" />
+     <Compile Include="Assets\Scripts\GisData.cs" />
      <Compile Include="Assets\Scripts\Settings.cs" />
-     <Compile Include="Assets\Scripts\SimpleJSON.cs" />
-     <None Include="Assets\JSON\readme.txt" />
-     <None Include="Assets\Data\XmlTest.xml" />
-     <None Include="Assets\Data\TramData.xml" />
+     <Compile Include="Assets\Scripts\Tram.cs" />
+     <Compile Include="Assets\Scripts\TramStop.cs" />
+     <Compile Include="Assets\Scripts\Ward.cs" />
+     <None Include="Assets\Scripts\XML\Bus Stop Locations.xml" />
+     <None Include="Assets\Scripts\XML\Ward_XML_Schema.xml" />
+     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData_ver_02.xml" />
+     <None Include="Assets\Scripts\XML\Tram Stops.xml" />
+     <None Include="Assets\Scripts\XML\Ward_XML_Schema.txt" />
+     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

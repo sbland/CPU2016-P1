@@ -15,114 +15,93 @@ public class GisDataStatics
 
 public class GisData : MonoBehaviour
 {
-    
-    public string filePath;
-    public float scale = 400;
+    public float scale = 50;
     public float offsetX = 397000;
     public float offsetY = 395000;
 
-    public GameObject[] objectList;
-
-    public int valueOut;
-
     public TextAsset gisDataFile;
     public TextMesh textTitle;
-    
+
 
 
     // Use this for initialization
     void Start()
     {
-
-        ReadGISData();
-
+        GisDataStatics.scale = scale;
+        GisDataStatics.offsetX = offsetX;
+        GisDataStatics.offsetY = offsetY;
+        
+        LoadGisData(gisDataFile);
 
     }
 
     // Update is called once per frame
-    void Update()
+    //void Update()
+    //{
+
+    //}
+
+   
+
+
+    public void LoadGisData(TextAsset xmlFileIn)
     {
-
-    }
-
-    public void ReadGISData()
-    {
-
-
-
-        Debug.Log("TEST");
-
         XmlDocument gisXml = new XmlDocument();
 
-        //try { gisXml.Load(gisData.text); }
-        //catch { Debug.Log("Failed to load file"); }
+        try { gisXml.LoadXml(xmlFileIn.text); }
+        catch { Debug.Log("Failed to load xml file"); }
 
-        gisXml.LoadXml(gisDataFile.text);
+        StartCoroutine(LoadingCoroutine(gisXml)); //allows loading of assets while continuing other tasks
 
-        XmlNodeList oaPointList = gisXml.DocumentElement.ChildNodes;
 
-        StartCoroutine(coroutine(oaPointList));
-
-        
     }
-    private IEnumerator coroutine(XmlNodeList nodeList)
+
+    private IEnumerator LoadingCoroutine(XmlDocument inputXml)
     {
+        XmlNodeList nodeList = inputXml.DocumentElement.ChildNodes; // opens the first level of objects in the xml file (E.g the wards)
+
         foreach (XmlNode xmlNodeI in nodeList)
         {
-            //## wait 1 frame before adding a cylinder
-            //yield return new WaitForEndOfFrame();
+            //## Load 1 item per frame
+            yield return new WaitForEndOfFrame();
 
-            //Assign variables from xml too c# vars
-            float gisZ = float.Parse(xmlNodeI["X"].InnerText);
-            float gisX = float.Parse(xmlNodeI["Y"].InnerText);
+            //Load data
+            float posLat = float.Parse(xmlNodeI["X"].InnerText);
+            float posLong = float.Parse(xmlNodeI["Y"].InnerText);
             float inverseScale = 500 / scale; // This sets the size of the cylinder based on the scale of the model
-            //offset and rescale
-            gisX = gisX - offsetX;
-            gisZ = gisZ - offsetY;
+            string wardName = xmlNodeI.Attributes["name"].Value;
 
-            gisX = gisX / scale;
-            gisZ = gisZ / scale;
+            Dictionary<string, float> censusDataDict = new Dictionary<string, float>();
 
 
-            //Assign data from xml to variables
-            float censusDataStudents = float.Parse(xmlNodeI["StudentFT"].InnerText);
-            float censusDataTravelByTram = float.Parse(xmlNodeI["travelByTram"].InnerText);
-            float censusDataTravelByCar = float.Parse(xmlNodeI["travelByCar"].InnerText);
+
+            foreach (XmlNode xmlChild in xmlNodeI)
+            {
+                
 
 
-            //Create an array to store each data set
-            float[] censusData; //Better to make this a dictionary?
-            censusData = new float[10] ;
+               
+                Debug.Log(xmlChild.Name);
+                float parseFloat;
 
-            //Add data to array to pass to the Ward class
-            censusData[0] = censusDataStudents;
-            censusData[1] = censusDataTravelByTram;
-            censusData[1] = censusDataTravelByCar;
+                
+                parseFloat = float.Parse(xmlChild.InnerText);
+                      
+                censusDataDict.Add(xmlChild.Name, parseFloat);
 
-           
+            }
 
-            
 
-            textTitle.text = "travelByCar";
 
-            
+
+
             //create a new ward
-            Ward newWard = new Ward(xmlNodeI["name"].InnerText,gisX,gisZ, inverseScale,censusData);
+            Ward newWard = new Ward(wardName, posLat, posLong, censusDataDict, inverseScale);
             newWard.Initiate();
 
-
-            //// Below moved to Ward class////
-            //GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-            //cylinder.name = xmlNodeI["name"].InnerText;
-            //cylinder.transform.position = new Vector3(-gisX, gistravelByCar, gisZ);
-            //cylinder.transform.localScale = new Vector3(inverseScale, gistravelByCar, inverseScale);
-
-           // cylinder.gameObject.AddComponent<Ward>();
-
-                       
         }
+
+
         yield break;
-
     }
-
 }

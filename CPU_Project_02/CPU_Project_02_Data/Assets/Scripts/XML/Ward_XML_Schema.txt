@@ -1,0 +1,16 @@
+	<Row>
+		<X>360670.818911459</X>
+		<Y>402003.075770711</Y>
+		<name>Abram</name>
+		<code>E36006426</code>
+		<travelByTram>0.03</travelByTram>
+		<travelByBus>4.89</travelByBus>
+		<travelByCar>41.97</travelByCar>
+		<travelByCarPass>4.56</travelByCarPass>
+		<travelByBike>1.35</travelByBike>
+		<travelByFoot>3.58</travelByFoot>
+		<StudentFT>3.59</StudentFT>
+		<EmployedFT>39.13</EmployedFT>
+		<EmployedPT>13.37</EmployedPT>
+		<HealthVG>44.27</HealthVG>
+	</Row>
