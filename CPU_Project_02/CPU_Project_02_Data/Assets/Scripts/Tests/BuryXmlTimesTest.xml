@@ -9,11 +9,42 @@
           
 	  </Trip>
     <Trip count ="1">
-	    <Stop count ="0" name ="Bury">14</Stop>
-      <Stop count ="1" name ="Radcliffe">16</Stop>
-      <Stop count ="2" name ="Whitefield">18</Stop>
-      <Stop count ="3" name ="Besses">20</Stop>
+	    <Stop count ="0" name ="BBuryB">14</Stop>
+      <Stop count ="1" name ="BRadcliffeB">16</Stop>
+      <Stop count ="2" name ="BWhitefieldB">18</Stop>
+      <Stop count ="3" name ="BBessesB">20</Stop>
           
 	  </Trip>
-  </Route>  	
+    <Trip count ="2">
+      <Stop count ="0" name ="BBuryB">21</Stop>
+      <Stop count ="1" name ="BRadcliffeB">30</Stop>
+      <Stop count ="2" name ="BWhitefieldB">32</Stop>
+      <Stop count ="3" name ="BBessesB">33</Stop>
+
+    </Trip>
+  </Route>
+  <Route name ="BuryIn">
+    <Trip count ="0">
+            
+      <Stop count ="3" name ="Besses">2</Stop>
+      <Stop count ="2" name ="Whitefield">4</Stop>
+      <Stop count ="1" name ="Radcliffe">6</Stop>
+      <Stop count ="0" name ="Bury">8</Stop>
+
+    </Trip>
+    <Trip count ="1">
+      <Stop count ="0" name ="BBuryB">12</Stop>
+      <Stop count ="1" name ="BRadcliffeB">16</Stop>
+      <Stop count ="2" name ="BWhitefieldB">18</Stop>
+      <Stop count ="3" name ="BBessesB">20</Stop>
+
+    </Trip>
+    <Trip count ="2">
+      <Stop count ="0" name ="BBuryB">21</Stop>
+      <Stop count ="1" name ="BRadcliffeB">30</Stop>
+      <Stop count ="2" name ="BWhitefieldB">32</Stop>
+      <Stop count ="3" name ="BBessesB">33</Stop>
+
+    </Trip>
+  </Route>
 </Root>
