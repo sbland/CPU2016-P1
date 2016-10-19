@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<Location>Deansgate-Castlefield</Location>
+		<TimeA>161</TimeA>
+		<TimeB>1347</TimeB>
+		<TimeC>995</TimeC>
+		<TimeD>578</TimeD>
+		<TimeE>1581</TimeE>
+		<TimeF>872</TimeF>
+	</Row>
+	<Row>
+		<Location>St Peters Square</Location>
+		<TimeA>514</TimeA>
+		<TimeB>3886</TimeB>
+		<TimeC>2474</TimeC>
+		<TimeD>1738</TimeD>
+		<TimeE>4557</TimeE>
+		<TimeF>1919</TimeF>
+	</Row>
+	<Row>
+		<Location>Piccadilly Gardens</Location>
+		<TimeA>606</TimeA>
+		<TimeB>2196</TimeB>
+		<TimeC>3090</TimeC>
+		<TimeD>2261</TimeD>
+		<TimeE>3889</TimeE>
+		<TimeF>3249</TimeF>
+	</Row>
+	<Row>
+		<Location>Market Street</Location>
+		<TimeA>476</TimeA>
+		<TimeB>2655</TimeB>
+		<TimeC>4118</TimeC>
+		<TimeD>3036</TimeD>
+		<TimeE>4797</TimeE>
+		<TimeF>2100</TimeF>
+	</Row>
+	<Row>
+		<Location>Shudehill</Location>
+		<TimeA>135</TimeA>
+		<TimeB>833</TimeB>
+		<TimeC>914</TimeC>
+		<TimeD>691</TimeD>
+		<TimeE>1483</TimeE>
+		<TimeF>655</TimeF>
+	</Row>
+	<Row>
+		<Location>Piccadilly Undercroft</Location>
+		<TimeA>624</TimeA>
+		<TimeB>2519</TimeB>
+		<TimeC>2824</TimeC>
+		<TimeD>1700</TimeD>
+		<TimeE>3660</TimeE>
+		<TimeF>1611</TimeF>
+	</Row>
+	<Row>
+		<Location>Victoria</Location>
+		<TimeA>364</TimeA>
+		<TimeB>2000</TimeB>
+		<TimeC>2734</TimeC>
+		<TimeD>2078</TimeD>
+		<TimeE>3287</TimeE>
+		<TimeF>3459</TimeF>
+	</Row>
+</Root>

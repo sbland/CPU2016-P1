@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<Location>Ashton-under-Lyne</Location>
+		<TimeA>87</TimeA>
+		<TimeB>229</TimeB>
+		<TimeC>828</TimeC>
+		<TimeD>444</TimeD>
+		<TimeE>517</TimeE>
+		<TimeF>219</TimeF>
+	</Row>
+	<Row>
+		<Location>Ashton West</Location>
+		<TimeA>21</TimeA>
+		<TimeB>49</TimeB>
+		<TimeC>100</TimeC>
+		<TimeD>99</TimeD>
+		<TimeE>100</TimeE>
+		<TimeF>82</TimeF>
+	</Row>
+	<Row>
+		<Location>Ashton Moss</Location>
+		<TimeA>16</TimeA>
+		<TimeB>70</TimeB>
+		<TimeC>153</TimeC>
+		<TimeD>68</TimeD>
+		<TimeE>103</TimeE>
+		<TimeF>53</TimeF>
+	</Row>
+	<Row>
+		<Location>Audenshaw</Location>
+		<TimeA>20</TimeA>
+		<TimeB>86</TimeB>
+		<TimeC>164</TimeC>
+		<TimeD>102</TimeD>
+		<TimeE>152</TimeE>
+		<TimeF>90</TimeF>
+	</Row>
+	<Row>
+		<Location>Droylsden</Location>
+		<TimeA>27</TimeA>
+		<TimeB>166</TimeB>
+		<TimeC>315</TimeC>
+		<TimeD>268</TimeD>
+		<TimeE>193</TimeE>
+		<TimeF>144</TimeF>
+	</Row>
+	<Row>
+		<Location>Cemetery Road</Location>
+		<TimeA>22</TimeA>
+		<TimeB>111</TimeB>
+		<TimeC>91</TimeC>
+		<TimeD>87</TimeD>
+		<TimeE>124</TimeE>
+		<TimeF>64</TimeF>
+	</Row>
+	<Row>
+		<Location>Edge Lane</Location>
+		<TimeA>58</TimeA>
+		<TimeB>181</TimeB>
+		<TimeC>225</TimeC>
+		<TimeD>230</TimeD>
+		<TimeE>293</TimeE>
+		<TimeF>197</TimeF>
+	</Row>
+	<Row>
+		<Location>Clayton Hall</Location>
+		<TimeA>35</TimeA>
+		<TimeB>115</TimeB>
+		<TimeC>174</TimeC>
+		<TimeD>131</TimeD>
+		<TimeE>163</TimeE>
+		<TimeF>94</TimeF>
+	</Row>
+	<Row>
+		<Location>Velopark</Location>
+		<TimeA>50</TimeA>
+		<TimeB>239</TimeB>
+		<TimeC>230</TimeC>
+		<TimeD>255</TimeD>
+		<TimeE>345</TimeE>
+		<TimeF>195</TimeF>
+	</Row>
+	<Row>
+		<Location>Etihad Campus</Location>
+		<TimeA>13</TimeA>
+		<TimeB>80</TimeB>
+		<TimeC>197</TimeC>
+		<TimeD>47</TimeD>
+		<TimeE>105</TimeE>
+		<TimeF>69</TimeF>
+	</Row>
+	<Row>
+		<Location>Holt Town</Location>
+		<TimeA>16</TimeA>
+		<TimeB>56</TimeB>
+		<TimeC>76</TimeC>
+		<TimeD>48</TimeD>
+		<TimeE>92</TimeE>
+		<TimeF>58</TimeF>
+	</Row>
+	<Row>
+		<Location>New Islington</Location>
+		<TimeA>50</TimeA>
+		<TimeB>231</TimeB>
+		<TimeC>190</TimeC>
+		<TimeD>131</TimeD>
+		<TimeE>338</TimeE>
+		<TimeF>267</TimeF>
+	</Row>
+</Root>

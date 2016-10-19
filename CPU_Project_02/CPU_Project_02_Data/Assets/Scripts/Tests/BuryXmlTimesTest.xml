@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Route name ="BuryOut">
+	  <Trip count ="0">
+	    <Stop count ="0" name ="Bury">6</Stop>
+      <Stop count ="1" name ="Radcliffe">8</Stop>
+      <Stop count ="2" name ="Whitefield">10</Stop>
+      <Stop count ="3" name ="Besses">12</Stop>
+          
+	  </Trip>
+    <Trip count ="1">
+	    <Stop count ="0" name ="Bury">14</Stop>
+      <Stop count ="1" name ="Radcliffe">16</Stop>
+      <Stop count ="2" name ="Whitefield">18</Stop>
+      <Stop count ="3" name ="Besses">20</Stop>
+          
+	  </Trip>
+  </Route>  	
+</Root>

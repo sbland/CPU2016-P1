@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<Location>East Didsbury</Location>
+		<TimeA>72</TimeA>
+		<TimeB>510</TimeB>
+		<TimeC>387</TimeC>
+		<TimeD>376</TimeD>
+		<TimeE>513</TimeE>
+		<TimeF>240</TimeF>
+	</Row>
+	<Row>
+		<Location>Didsbury Village</Location>
+		<TimeA>52</TimeA>
+		<TimeB>393</TimeB>
+		<TimeC>210</TimeC>
+		<TimeD>293</TimeD>
+		<TimeE>434</TimeE>
+		<TimeF>216</TimeF>
+	</Row>
+	<Row>
+		<Location>West Didsbury</Location>
+		<TimeA>32</TimeA>
+		<TimeB>326</TimeB>
+		<TimeC>140</TimeC>
+		<TimeD>110</TimeD>
+		<TimeE>344</TimeE>
+		<TimeF>161</TimeF>
+	</Row>
+	<Row>
+		<Location>Burton Road</Location>
+		<TimeA>57</TimeA>
+		<TimeB>526</TimeB>
+		<TimeC>199</TimeC>
+		<TimeD>174</TimeD>
+		<TimeE>542</TimeE>
+		<TimeF>294</TimeF>
+	</Row>
+	<Row>
+		<Location>Withington</Location>
+		<TimeA>34</TimeA>
+		<TimeB>175</TimeB>
+		<TimeC>79</TimeC>
+		<TimeD>102</TimeD>
+		<TimeE>184</TimeE>
+		<TimeF>67</TimeF>
+	</Row>
+	<Row>
+		<Location>St. Werburgh's Road</Location>
+		<TimeA>77</TimeA>
+		<TimeB>412</TimeB>
+		<TimeC>206</TimeC>
+		<TimeD>192</TimeD>
+		<TimeE>364</TimeE>
+		<TimeF>164</TimeF>
+	</Row>
+	<Row>
+		<Location>Chorlton</Location>
+		<TimeA>120</TimeA>
+		<TimeB>678</TimeB>
+		<TimeC>505</TimeC>
+		<TimeD>354</TimeD>
+		<TimeE>988</TimeE>
+		<TimeF>644</TimeF>
+	</Row>
+	<Row>
+		<Location>Firswood</Location>
+		<TimeA>44</TimeA>
+		<TimeB>214</TimeB>
+		<TimeC>177</TimeC>
+		<TimeD>133</TimeD>
+		<TimeE>251</TimeE>
+		<TimeF>147</TimeF>
+	</Row>
+</Root>

@@ -1,0 +1,111 @@
+﻿<Root>
+
+
+
+<Row>
+  <Location>Bury Interchange</Location>
+  <TimeA>359</TimeA>
+  <TimeB>2156</TimeB>
+  <TimeC>2635</TimeC>
+  <TimeD>1700</TimeD>
+  <TimeE>2742</TimeE>
+  <TimeF>1184</TimeF>
+</Row>
+
+<Row>
+  <Location>Radcliffe</Location>
+  <TimeA>253</TimeA>
+  <TimeB>960</TimeB>
+  <TimeC>928</TimeC>
+  <TimeD>834</TimeD>
+  <TimeE>1252</TimeE>
+  <TimeF>643</TimeF>
+</Row>
+
+<Row>
+  <Location>Whitefield</Location>
+  <TimeA>456</TimeA>
+  <TimeB>456</TimeB>
+  <TimeC>456</TimeC>
+  <TimeD>456</TimeD>
+  <TimeE>456</TimeE>
+  <TimeF>456</TimeF>
+</Row>
+
+<Row>
+  <Location>BessesOthBarn</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+
+<Row>
+  <Location>Prestwich</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+<Row>
+  <Location>Heaton Park</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+<Row>
+  <Location>Bowker Vale</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+<Row>
+  <Location>Crumpsall</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+<Row>
+  <Location>Abraham Moss</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+<Row>
+  <Location>Queens Road</Location>
+  <TimeA>123</TimeA>
+  <TimeB>123</TimeB>
+  <TimeC>123</TimeC>
+  <TimeD>123</TimeD>
+  <TimeE>123</TimeE>
+  <TimeF>123</TimeF>
+</Row>
+
+
+
+
+
+
+</Root>

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Masterscenes/Scene_03.unity
+- path: Assets/Masterscenes/TramTest.unity
   isLoaded: 1
   isActive: 1

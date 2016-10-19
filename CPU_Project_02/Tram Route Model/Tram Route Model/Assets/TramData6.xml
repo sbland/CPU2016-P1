@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<Location>Bury Interchange</Location>
+		<TimeA>359</TimeA>
+		<TimeB>2156</TimeB>
+		<TimeC>2635</TimeC>
+		<TimeD>1700</TimeD>
+		<TimeE>2742</TimeE>
+		<TimeF>1184</TimeF>
+	</Row>
+	<Row>
+		<Location>Radcliffe</Location>
+		<TimeA>253</TimeA>
+		<TimeB>960</TimeB>
+		<TimeC>928</TimeC>
+		<TimeD>834</TimeD>
+		<TimeE>1252</TimeE>
+		<TimeF>643</TimeF>
+	</Row>
+	<Row>
+		<Location>Whitefield</Location>
+		<TimeA>168</TimeA>
+		<TimeB>982</TimeB>
+		<TimeC>929</TimeC>
+		<TimeD>858</TimeD>
+		<TimeE>1231</TimeE>
+		<TimeF>572</TimeF>
+	</Row>
+	<Row>
+		<Location>Besses O'th'Barn</Location>
+		<TimeA>75</TimeA>
+		<TimeB>545</TimeB>
+		<TimeC>402</TimeC>
+		<TimeD>409</TimeD>
+		<TimeE>691</TimeE>
+		<TimeF>282</TimeF>
+	</Row>
+	<Row>
+		<Location>Prestwich</Location>
+		<TimeA>86</TimeA>
+		<TimeB>758</TimeB>
+		<TimeC>842</TimeC>
+		<TimeD>706</TimeD>
+		<TimeE>968</TimeE>
+		<TimeF>403</TimeF>
+	</Row>
+	<Row>
+		<Location>Heaton Park</Location>
+		<TimeA>70</TimeA>
+		<TimeB>633</TimeB>
+		<TimeC>429</TimeC>
+		<TimeD>633</TimeD>
+		<TimeE>550</TimeE>
+		<TimeF>280</TimeF>
+	</Row>
+	<Row>
+		<Location>Bowker Vale</Location>
+		<TimeA>74</TimeA>
+		<TimeB>476</TimeB>
+		<TimeC>436</TimeC>
+		<TimeD>656</TimeD>
+		<TimeE>530</TimeE>
+		<TimeF>257</TimeF>
+	</Row>
+	<Row>
+		<Location>Crumpsall</Location>
+		<TimeA>123</TimeA>
+		<TimeB>552</TimeB>
+		<TimeC>550</TimeC>
+		<TimeD>443</TimeD>
+		<TimeE>664</TimeE>
+		<TimeF>304</TimeF>
+	</Row>
+	<Row>
+		<Location>Abraham Moss</Location>
+		<TimeA>48</TimeA>
+		<TimeB>475</TimeB>
+		<TimeC>433</TimeC>
+		<TimeD>364</TimeD>
+		<TimeE>616</TimeE>
+		<TimeF>226</TimeF>
+	</Row>
+	<Row>
+		<Location>Queens Road</Location>
+		<TimeA>39</TimeA>
+		<TimeB>121</TimeB>
+		<TimeC>154</TimeC>
+		<TimeD>154</TimeD>
+		<TimeE>161</TimeE>
+		<TimeF>128</TimeF>
+	</Row>
+</Root>

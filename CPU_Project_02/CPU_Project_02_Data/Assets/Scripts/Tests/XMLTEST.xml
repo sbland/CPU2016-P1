@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<time1>1913</time1>
+		<name>Stockport, Bus Station</name>
+	</Row>
+	<Row>
+		<time2>0616</time2>
+		<name>Stockport, Bus Station</name>
+	</Row>
+</Root>

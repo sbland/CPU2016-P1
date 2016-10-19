@@ -51,8 +51,7 @@ public class Ward
 
         cylinder.transform.position = new Vector3(latitude, censusDataDictLocal[inputName], longitude);
         cylinder.transform.localScale = new Vector3(width, censusDataDictLocal[inputName], width);
-
-
+        
 
     }
 
