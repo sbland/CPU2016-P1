@@ -15,6 +15,8 @@ public class TimeControl : MonoBehaviour {
 
     public bool runTimer = true;
     public int secondsEqualToHour = 2;
+    public float startTime = 0;
+
 
     public Text timeText;
     
@@ -22,7 +24,7 @@ public class TimeControl : MonoBehaviour {
         // Use this for initialization
 	void Start () {
         TimeInfo.hour = 0;
-        TimeInfo.currentTime = 0;
+        TimeInfo.currentTime = startTime;
         TimeInfo.secondsEqualToHour = secondsEqualToHour;
         TimeInfo.runTimer = runTimer;
         StartCoroutine(UpdateTime());
@@ -31,7 +33,7 @@ public class TimeControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        TimeInfo.currentTime += Time.deltaTime;
+        TimeInfo.currentTime += (Time.deltaTime / secondsEqualToHour);
         timeText.text = "Cur Time = " + TimeInfo.currentTime;
     }
 

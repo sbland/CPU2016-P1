@@ -13,13 +13,15 @@ public class XmlScheduleData
 
 public class Route
 {
-    public string name;
+    public string routeName;
+    public string serviceID;
     public List<Trip> trips = new List<Trip>();
 }
 
 public class Trip
 {
-    public int tripId;
+    public string tripId;
+    public int tripCountNo;
     public List<ScheduledStop> scheduledStops = new List<ScheduledStop>();
 }
 
@@ -27,7 +29,8 @@ public class ScheduledStop
 {
     public int stopTimeId;
     public string stopName;
-    public int stopTime;
+    public float stopTime;
+    public int stopCountNo;
 
 }
 
@@ -51,36 +54,49 @@ public class XmlScheduleLoader : MonoBehaviour {
         try { scheduleXml.LoadXml(routeScheduleXml.text); }
         catch { Debug.Log("Failed to load xml file"); } //load the xml doc into the xml var
 
+        
+
         XmlNodeList routeList = scheduleXml.DocumentElement.ChildNodes;
         foreach (XmlNode routePointer in routeList)
         {
+            //Debug.Log(routePointer.Attributes["routeName"].Value);
             Route route = new Route();
-            route.name = routePointer.Attributes["name"].Value;
+            route.routeName = routePointer.Attributes["routeName"].Value;
+            route.serviceID = routePointer.Attributes["serviceID"].Value;
 
 
-
+            int tripCounter = 0;
             XmlNodeList tripList = routePointer.ChildNodes;
             foreach (XmlNode tripPointer in tripList)
             {
                 Trip trip = new Trip();
-                trip.tripId = int.Parse(tripPointer.Attributes["count"].Value);
+                trip.tripId = tripPointer.Attributes["id"].Value;
+                trip.tripCountNo = tripCounter;
 
+                int stopCounter = 0;
                 XmlNodeList stopList = tripPointer.ChildNodes;
                 foreach (XmlNode stopPointer in stopList)
                 {
                     ScheduledStop scheduledStop = new ScheduledStop();
-                    scheduledStop.stopName = stopPointer.Attributes["name"].Value;
-                    scheduledStop.stopTimeId = int.Parse(stopPointer.Attributes["count"].Value);
-                    scheduledStop.stopTime = int.Parse(stopPointer.InnerText);
-                    trip.scheduledStops.Add(scheduledStop);
+                    //set stop values
+                    //scheduledStop.stopName = stopPointer.Attributes["name"].Value;
+                    //scheduledStop.stopTimeId = int.Parse(stopPointer.Attributes["count"].Value);
+                    scheduledStop.stopTime = float.Parse(stopPointer.InnerText);
+                    scheduledStop.stopCountNo = stopCounter;
 
+
+                    //add to stop list
+                    trip.scheduledStops.Add(scheduledStop);
+                    stopCounter += 1;
                 }
 
-                route.trips.Add(trip);
 
+                //add to trip list
+                route.trips.Add(trip);
+                tripCounter += 1;
             }
 
-            XmlScheduleData.routes.Add(route.name, route);
+            XmlScheduleData.routes.Add(route.serviceID, route);
             
         }
         //Debug.Log(XmlScheduleData.routes["BuryOut"].trips[1].scheduledStops[3].stopName);

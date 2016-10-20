@@ -77,7 +77,9 @@
     <Compile Include="Assets\Scripts\Tests\TramStopObject.cs" />
     <Compile Include="Assets\Scripts\TimeControl.cs" />
     <Compile Include="Assets\Scripts\TramController.cs" />
+    <Compile Include="Assets\Scripts\TramController_V2.cs" />
     <Compile Include="Assets\Scripts\TramLineTest.cs" />
+    <Compile Include="Assets\Scripts\TramMaker.cs" />
     <Compile Include="Assets\Scripts\TramStop.cs" />
     <Compile Include="Assets\Scripts\Ward.cs" />
     <Compile Include="Assets\Scripts\XmlScheduleLoader.cs" />
@@ -85,11 +87,13 @@
   <ItemGroup>
     <None Include="Assets\Scripts\Tests\BuryXmlTimesTest.xml" />
     <None Include="Assets\Scripts\Tests\XMLTEST.xml" />
+    <None Include="Assets\Scripts\XML\AltToBury-Serv000001.xml" />
     <None Include="Assets\Scripts\XML\Bus Stop Locations.xml" />
     <None Include="Assets\Scripts\XML\BusStop_XML_Schema.xml" />
     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData.xml" />
     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData_ver_02.xml" />
     <None Include="Assets\Scripts\XML\Tram Stops.xml" />
+    <None Include="Assets\Scripts\XML\TramSchedule.xml" />
     <None Include="Assets\Scripts\XML\Tram_Stops_V2.xml" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.txt" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.xml" />

@@ -3,7 +3,8 @@ using System.Collections;
 using System.IO;
 using System.Xml;
 
-public class TramController : MonoBehaviour {
+public class TramController_V2 : MonoBehaviour
+{
 
     public bool debugMe = false;
     public string serviceID = "Serv000001";
@@ -20,17 +21,19 @@ public class TramController : MonoBehaviour {
     private int currentTrip = 0;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         transform.position = tramStops[startStopId].transform.position;
         totalNoStops = tramStops.Length;
         previousStopId = startStopId;
         targetStopId = previousStopId;
-       
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-        if(!XmlScheduleData.loadingData)
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (!XmlScheduleData.loadingData)
         {
             if (TimeInfo.currentTime >= XmlScheduleData.routes[serviceID].trips[0].scheduledStops[0].stopTime)
             {
@@ -50,11 +53,11 @@ public class TramController : MonoBehaviour {
             //    {
             //        Debug.Log(XmlScheduleData.routes[serviceID].trips[currentTrip].scheduledStops[0].stopTime);
             //    }
-                
+
             //}
-        
+
         }
-        
+
     }
 
     public void MoveToNextStation()
@@ -74,18 +77,19 @@ public class TramController : MonoBehaviour {
         float nextStopTime = XmlScheduleData.routes[serviceID].trips[currentTrip].scheduledStops[targetStopId].stopTime;
         timeToReachNextStation = nextStopTime - TimeInfo.currentTime;
         percentageAlongPath = 0;
-        
+
     }
 
     public void ChangeTargetStation()
     {
-        
+
         if (targetStopId == XmlScheduleData.routes[serviceID].trips[currentTrip].scheduledStops.Count - 1) //end of line
         {
-            targetStopId = 1;
-            previousStopId = 0;
-            currentTrip += 1;
-            transform.position = tramStops[previousStopId].transform.position;
+            //targetStopId = 1;
+            //previousStopId = 0;
+            //currentTrip += 1;
+            //transform.position = tramStops[previousStopId].transform.position;
+            Destroy(this);
         }
         else
         {

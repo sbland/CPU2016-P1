@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Route name ="BuryOut">
-	  <Trip count ="0">
+  <Route routeName ="ALTRINCHAM - MANCHESTER - BURY" serviceID ="Serv000001">
+	  <Trip count ="0" id ="Trip000001">
 	    <Stop count ="0" name ="Bury">6</Stop>
       <Stop count ="1" name ="Radcliffe">8</Stop>
       <Stop count ="2" name ="Whitefield">10</Stop>
       <Stop count ="3" name ="Besses">12</Stop>
           
 	  </Trip>
-    <Trip count ="1">
+    <Trip count ="1" id ="Trip000002">
 	    <Stop count ="0" name ="BBuryB">14</Stop>
       <Stop count ="1" name ="BRadcliffeB">16</Stop>
       <Stop count ="2" name ="BWhitefieldB">18</Stop>
       <Stop count ="3" name ="BBessesB">20</Stop>
           
 	  </Trip>
-    <Trip count ="2">
+    <Trip count ="2" id ="Trip000003">
       <Stop count ="0" name ="BBuryB">21</Stop>
       <Stop count ="1" name ="BRadcliffeB">30</Stop>
       <Stop count ="2" name ="BWhitefieldB">32</Stop>
@@ -23,8 +23,8 @@
 
     </Trip>
   </Route>
-  <Route name ="BuryIn">
-    <Trip count ="0">
+  <Route routeName ="BURY - MANCHESTER - ALTRINCHAM" serviceID ="Serv000003">
+    <Trip count ="0" id ="Trip000008">
             
       <Stop count ="3" name ="Besses">2</Stop>
       <Stop count ="2" name ="Whitefield">4</Stop>
@@ -32,14 +32,14 @@
       <Stop count ="0" name ="Bury">8</Stop>
 
     </Trip>
-    <Trip count ="1">
+    <Trip count ="1" id ="Trip000009">
       <Stop count ="0" name ="BBuryB">12</Stop>
       <Stop count ="1" name ="BRadcliffeB">16</Stop>
       <Stop count ="2" name ="BWhitefieldB">18</Stop>
       <Stop count ="3" name ="BBessesB">20</Stop>
 
     </Trip>
-    <Trip count ="2">
+    <Trip count ="2" id ="Trip000010">
       <Stop count ="0" name ="BBuryB">21</Stop>
       <Stop count ="1" name ="BRadcliffeB">30</Stop>
       <Stop count ="2" name ="BWhitefieldB">32</Stop>
