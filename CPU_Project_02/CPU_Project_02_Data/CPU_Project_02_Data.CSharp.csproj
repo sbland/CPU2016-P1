@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Tests\MoveTramBetweenStations.cs" />
     <Compile Include="Assets\Scripts\Tests\TramStopObject.cs" />
     <Compile Include="Assets\Scripts\TimeControl.cs" />
+    <Compile Include="Assets\Scripts\TramClass.cs" />
     <Compile Include="Assets\Scripts\TramController.cs" />
     <Compile Include="Assets\Scripts\TramController_V2.cs" />
     <Compile Include="Assets\Scripts\TramLineTest.cs" />
@@ -94,6 +95,7 @@
     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData_ver_02.xml" />
     <None Include="Assets\Scripts\XML\Tram Stops.xml" />
     <None Include="Assets\Scripts\XML\TramSchedule.xml" />
+    <None Include="Assets\Scripts\XML\TramSchedule_Short.xml" />
     <None Include="Assets\Scripts\XML\Tram_Stops_V2.xml" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.txt" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.xml" />
