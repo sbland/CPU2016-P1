@@ -9,7 +9,10 @@ public class XmlScheduleData
     //public static List<Route> routes = new List<Route>();
     public static Dictionary<string, Route> routes = new Dictionary<string, Route>();
     public static bool loadingData = true;
+    
 }
+
+
 
 public class Route
 {
@@ -21,6 +24,7 @@ public class Route
 public class Trip
 {
     public string tripId;
+    public string parentServiceID;
     public int tripCountNo;
     public List<ScheduledStop> scheduledStops = new List<ScheduledStop>();
 }
@@ -50,6 +54,9 @@ public class XmlScheduleLoader : MonoBehaviour {
 
     void loadScheduleData()
     {
+        //Pause Time while loading
+        Time.timeScale = 0;
+
         XmlDocument scheduleXml = new XmlDocument();
         try { scheduleXml.LoadXml(routeScheduleXml.text); }
         catch { Debug.Log("Failed to load xml file"); } //load the xml doc into the xml var
@@ -72,6 +79,7 @@ public class XmlScheduleLoader : MonoBehaviour {
                 Trip trip = new Trip();
                 trip.tripId = tripPointer.Attributes["id"].Value;
                 trip.tripCountNo = tripCounter;
+                trip.parentServiceID = route.serviceID;
 
                 int stopCounter = 0;
                 XmlNodeList stopList = tripPointer.ChildNodes;
@@ -93,13 +101,28 @@ public class XmlScheduleLoader : MonoBehaviour {
 
                 //add to trip list
                 route.trips.Add(trip);
+
+                //Start timer to commence trip
+                float startTime = float.Parse(tripPointer.ChildNodes[0].InnerText);
+                StartCoroutine(DeferedTripStarter(startTime - TimeInfo.currentTime, trip.tripId));
+
                 tripCounter += 1;
             }
 
             XmlScheduleData.routes.Add(route.serviceID, route);
             
         }
-        //Debug.Log(XmlScheduleData.routes["BuryOut"].trips[1].scheduledStops[3].stopName);
+        
         XmlScheduleData.loadingData = false;
+        Debug.Log("Loading Complete");
+        Time.timeScale = 1;
+    }
+
+    public IEnumerator DeferedTripStarter(float startTime, string tripName)
+    {
+        yield return new WaitForSeconds(startTime * TimeInfo.secondsEqualToHour);
+        Debug.Log("Start new trip" + tripName);
+
+        yield break;
     }
 }
