@@ -127,7 +127,7 @@ public class XmlScheduleLoader : MonoBehaviour {
         {
             TramClass tram = TramData.tramListAvailable[tramsLeft - 1];
             TramData.tramListAvailable.RemoveAt(tramsLeft - 1);
-            Debug.Log(tramsLeft);
+            Debug.Log(tramsLeft-1);
         }
         else
         {
