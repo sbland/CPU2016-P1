@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row name="Altrincham, Altrincham Station (Manchester Metrolink)" id="9400ZZMAALT1">
+		<X>377000</X>
+		<Y>387900</Y>
+	</Row>
+	<Row name="Ashton Moss, Ashton Moss (Manchester Metrolink)" id="9400ZZMAAMO1">
+		<X>392002</X>
+		<Y>398548</Y>
+	</Row>
+	<Row name="Ashton Moss, Ashton Moss (Manchester Metrolink)" id="9400ZZMAAMO2">
+		<X>392002</X>
+		<Y>398548</Y>
+	</Row>
+	<Row name="Ashton Moss, Ashton West (Manchester Metrolink)" id="9400ZZMAAWT1">
+		<X>392817</X>
+		<Y>399285</Y>
+	</Row>
+	<Row name="Ashton Moss, Ashton West (Manchester Metrolink)" id="9400ZZMAAWT2">
+		<X>392817</X>
+		<Y>399285</Y>
+	</Row>
+	<Row name="Ashton Under Lyne, Ashton-Under-Lyne (Manchester Metrolink)" id="9400ZZMAAUL1">
+		<X>393839</X>
+		<Y>399399</Y>
+	</Row>
+	<Row name="Ashton Under Lyne, Ashton-Under-Lyne (Manchester Metrolink)" id="9400ZZMAAUL2">
+		<X>393839</X>
+		<Y>399399</Y>
+	</Row>
+	<Row name="Audenshaw, Audenshaw (Manchester Metrolink)" id="9400ZZMAAUD1">
+		<X>391397</X>
+		<Y>397949</Y>
+	</Row>
+	<Row name="Audenshaw, Audenshaw (Manchester Metrolink)" id="9400ZZMAAUD2">
+		<X>391397</X>
+		<Y>397949</Y>
+	</Row>
+	<Row name="Besses O Th Barn, Besses o'th'barn (Manchester Metrolink)" id="9400ZZMABOB1">
+		<X>381140</X>
+		<Y>405070</Y>
+	</Row>
+	<Row name="Besses O Th Barn, Besses o'th'barn (Manchester Metrolink)" id="9400ZZMABOB2">
+		<X>381140</X>
+		<Y>405070</Y>
+	</Row>
+	<Row name="Bowker Vale, Bowker Vale (Manchester Metrolink)" id="9400ZZMABOW1">
+		<X>383525</X>
+		<Y>403170</Y>
+	</Row>
+	<Row name="Bowker Vale, Bowker Vale (Manchester Metrolink)" id="9400ZZMABOW2">
+		<X>383525</X>
+		<Y>403170</Y>
+	</Row>
+	<Row name="Broadway, Broadway (Manchester Metrolink)" id="9400ZZMABWY1">
+		<X>380520</X>
+		<Y>397606</Y>
+	</Row>
+	<Row name="Broadway, Broadway (Manchester Metrolink)" id="9400ZZMABWY2">
+		<X>380520</X>
+		<Y>397606</Y>
+	</Row>
+	<Row name="Brooklands, Brooklands (Manchester Metrolink)" id="9400ZZMABKS1">
+		<X>378423</X>
+		<Y>391192</Y>
+	</Row>
+	<Row name="Brooklands, Brooklands (Manchester Metrolink)" id="9400ZZMABKS2">
+		<X>378423</X>
+		<Y>391192</Y>
+	</Row>
+	<Row name="Bury, Bury Interchange (Manchester Metrolink)" id="9400ZZMABUR1">
+		<X>380431</X>
+		<Y>410522</Y>
+	</Row>
+	<Row name="Bury, Bury Interchange (Manchester Metrolink)" id="9400ZZMABUR2">
+		<X>380431</X>
+		<Y>410522</Y>
+	</Row>
+	<Row name="Chadderton, Freehold (Manchester Metrolink)" id="9400ZZMAFRE1">
+		<X>390904</X>
+		<Y>404536</Y>
+	</Row>
+	<Row name="Chadderton, Freehold (Manchester Metrolink)" id="9400ZZMAFRE2">
+		<X>390904</X>
+		<Y>404536</Y>
+	</Row>
+	<Row name="Cheetham Hill, Abraham Moss (Manchester Metrolink)" id="9400ZZMAABM1">
+		<X>384485</X>
+		<Y>401560</Y>
+	</Row>
+	<Row name="Cheetham Hill, Abraham Moss (Manchester Metrolink)" id="9400ZZMAABM2">
+		<X>384485</X>
+		<Y>401560</Y>
+	</Row>
+	<Row name="Cheetham Hill, Woodlands Road (Manchester Metrolink)" id="9400ZZMAWDS1">
+		<X>384655</X>
+		<Y>401322</Y>
+	</Row>
+	<Row name="Cheetham Hill, Woodlands Road (Manchester Metrolink)" id="9400ZZMAWDS2">
+		<X>384655</X>
+		<Y>401322</Y>
+	</Row>
+	<Row name="Chorlton, Chorlton Station (Manchester Metrolink)" id="9400ZZMACHO1">
+		<X>381935</X>
+		<Y>394042</Y>
+	</Row>
+	<Row name="Chorlton, Chorlton Station (Manchester Metrolink)" id="9400ZZMACHO2">
+		<X>381935</X>
+		<Y>394042</Y>
+	</Row>
+	<Row name="Chorlton, St Werburgh's Rd Station (Manchester Metrolink)" id="9400ZZMASTW1">
+		<X>382465</X>
+		<Y>393580</Y>
+	</Row>
+	<Row name="Chorlton, St Werburgh's Rd Station (Manchester Metrolink)" id="9400ZZMASTW2">
+		<X>382465</X>
+		<Y>393580</Y>
+	</Row>
+	<Row name="Clayton, Clayton Hall (Manchester Metrolink)" id="9400ZZMACLN1">
+		<X>388009</X>
+		<Y>398467</Y>
+	</Row>
+	<Row name="Clayton, Clayton Hall (Manchester Metrolink)" id="9400ZZMACLN2">
+		<X>388009</X>
+		<Y>398467</Y>
+	</Row>
+	<Row name="Cornbrook, Cornbrook (Manchester Metrolink)" id="9400ZZMACRN1">
+		<X>382335</X>
+		<Y>397060</Y>
+	</Row>
+	<Row name="Cornbrook, Cornbrook (Manchester Metrolink)" id="9400ZZMACRN2">
+		<X>382335</X>
+		<Y>397060</Y>
+	</Row>
+	<Row name="Derker, Derker (Manchester Metrolink)" id="9400ZZMADER1">
+		<X>393364</X>
+		<Y>405913</Y>
+	</Row>
+	<Row name="Derker, Derker (Manchester Metrolink)" id="9400ZZMADER2">
+		<X>393364</X>
+		<Y>405913</Y>
+	</Row>
+	<Row name="Didsbury, Didsbury Village (Manchester Metrolink)" id="9400ZZMADID1">
+		<X>384906</X>
+		<Y>391127</Y>
+	</Row>
+	<Row name="Didsbury, Didsbury Village (Manchester Metrolink)" id="9400ZZMADID2">
+		<X>384906</X>
+		<Y>391127</Y>
+	</Row>
+	<Row name="Droylsden, Cemetery Road (Manchester Metrolink)" id="9400ZZMACEM1">
+		<X>389810</X>
+		<Y>398136</Y>
+	</Row>
+	<Row name="Droylsden, Cemetery Road (Manchester Metrolink)" id="9400ZZMACEM2">
+		<X>389810</X>
+		<Y>398136</Y>
+	</Row>
+	<Row name="Droylsden, Droylsden (Manchester Metrolink)" id="9400ZZMADRO1">
+		<X>390496</X>
+		<Y>398089</Y>
+	</Row>
+	<Row name="Droylsden, Droylsden (Manchester Metrolink)" id="9400ZZMADRO2">
+		<X>390496</X>
+		<Y>398089</Y>
+	</Row>
+	<Row name="Droylsden, Edge Lane (Manchester Metrolink)" id="9400ZZMAELN1">
+		<X>389132</X>
+		<Y>398249</Y>
+	</Row>
+	<Row name="Droylsden, Edge Lane (Manchester Metrolink)" id="9400ZZMAELN2">
+		<X>389132</X>
+		<Y>398249</Y>
+	</Row>
+	<Row name="East Didsbury, East Didsbury (Manchester Metrolink)" id="9400ZZMAEDY1">
+		<X>385656</X>
+		<Y>390603</Y>
+	</Row>
+	<Row name="East Didsbury, East Didsbury (Manchester Metrolink)" id="9400ZZMAEDY2">
+		<X>385656</X>
+		<Y>390603</Y>
+	</Row>
+	<Row name="Eccles, Eccles (Manchester Metrolink)" id="9400ZZMAECC1">
+		<X>377977</X>
+		<Y>398810</Y>
+	</Row>
+	<Row name="Failsworth, Failsworth (Manchester Metrolink)" id="9400ZZMAFWH1">
+		<X>389292</X>
+		<Y>401559</Y>
+	</Row>
+	<Row name="Failsworth, Failsworth (Manchester Metrolink)" id="9400ZZMAFWH2">
+		<X>389292</X>
+		<Y>401559</Y>
+	</Row>
+	<Row name="Firswood, Firswood Station (Manchester Metrolink)" id="9400ZZMAFIR1">
+		<X>381654</X>
+		<Y>394982</Y>
+	</Row>
+	<Row name="Firswood, Firswood Station (Manchester Metrolink)" id="9400ZZMAFIR2">
+		<X>381654</X>
+		<Y>394982</Y>
+	</Row>
+	<Row name="Heaton Park, Heaton Park (Manchester Metrolink)" id="9400ZZMAHEA1">
+		<X>382387</X>
+		<Y>403791</Y>
+	</Row>
+	<Row name="Heaton Park, Heaton Park (Manchester Metrolink)" id="9400ZZMAHEA2">
+		<X>382387</X>
+		<Y>403791</Y>
+	</Row>
+	<Row name="Higher Crumpsall, Crumpsall (Manchester Metrolink)" id="9400ZZMACRU1">
+		<X>384113</X>
+		<Y>402322</Y>
+	</Row>
+	<Row name="Higher Crumpsall, Crumpsall (Manchester Metrolink)" id="9400ZZMACRU2">
+		<X>384113</X>
+		<Y>402322</Y>
+	</Row>
+	<Row name="Hollinwood, Hollinwood (Manchester Metrolink)" id="9400ZZMAHOL1">
+		<X>390318</X>
+		<Y>402583</Y>
+	</Row>
+	<Row name="Hollinwood, Hollinwood (Manchester Metrolink)" id="9400ZZMAHOL2">
+		<X>390318</X>
+		<Y>402583</Y>
+	</Row>
+	<Row name="Holt Town, Holt Town (Manchester Metrolink)" id="9400ZZMAHTN1">
+		<X>386010</X>
+		<Y>398520</Y>
+	</Row>
+	<Row name="Holt Town, Holt Town (Manchester Metrolink)" id="9400ZZMAHTN2">
+		<X>386028</X>
+		<Y>398524</Y>
+	</Row>
+	<Row name="Ladywell, Ladywell (Manchester Metrolink)" id="9400ZZMALDY1">
+		<X>378406</X>
+		<Y>398630</Y>
+	</Row>
+	<Row name="Ladywell, Ladywell (Manchester Metrolink)" id="9400ZZMALDY2">
+		<X>378405</X>
+		<Y>398640</Y>
+	</Row>
+	<Row name="Langworthy, Langworthy (Manchester Metrolink)" id="9400ZZMALWY1">
+		<X>380478</X>
+		<Y>398239</Y>
+	</Row>
+	<Row name="Langworthy, Langworthy (Manchester Metrolink)" id="9400ZZMALWY2">
+		<X>380433</X>
+		<Y>398257</Y>
+	</Row>
+	<Row name="Manchester City Centre, Deansgate-Castlefield (Manchester Metrolink)" id="9400ZZMAGMX1">
+		<X>383405</X>
+		<Y>397594</Y>
+	</Row>
+	<Row name="Manchester City Centre, Deansgate-Castlefield (Manchester Metrolink)" id="9400ZZMAGMX2">
+		<X>383490</X>
+		<Y>397580</Y>
+	</Row>
+	<Row name="Manchester City Centre, Market Street (Manchester Metrolink)" id="9400ZZMAMKT1">
+		<X>384248</X>
+		<Y>398384</Y>
+	</Row>
+	<Row name="Manchester City Centre, Market Street (Manchester Metrolink)" id="9400ZZMAMKT2">
+		<X>384248</X>
+		<Y>398379</Y>
+	</Row>
+	<Row name="Manchester City Centre, Piccadilly Station (Manchester Metrolink)" id="9400ZZMAPIC1">
+		<X>384752</X>
+		<Y>397869</Y>
+	</Row>
+	<Row name="Manchester City Centre, Piccadilly Station (Manchester Metrolink)" id="9400ZZMAPIC2">
+		<X>384751</X>
+		<Y>397843</Y>
+	</Row>
+	<Row name="Manchester City Centre, Shudehill (Manchester Metrolink)" id="9400ZZMASHU1">
+		<X>384226</X>
+		<Y>398753</Y>
+	</Row>
+	<Row name="Manchester City Centre, Shudehill (Manchester Metrolink)" id="9400ZZMASHU2">
+		<X>384233</X>
+		<Y>398759</Y>
+	</Row>
+	<Row name="Manchester City Centre, St Peters Square (Manchester Metrolink)" id="9400ZZMASTP1">
+		<X>383923</X>
+		<Y>397924</Y>
+	</Row>
+	<Row name="Manchester City Centre, St Peters Square (Manchester Metrolink)" id="9400ZZMASTP2">
+		<X>383915</X>
+		<Y>397929</Y>
+	</Row>
+	<Row name="Manchester City Centre, Victoria Station (Manchester Metrolink)" id="9400ZZMAVIC2">
+		<X>384053</X>
+		<Y>399039</Y>
+	</Row>
+	<Row name="Manchester City Centre, Victoria Station (Manchester Metrolink)" id="9400ZZMAVIC3">
+		<X>384056</X>
+		<Y>399035</Y>
+	</Row>
+	<Row name="MediaCityUK, MediaCityUK (Manchester Metrolink)" id="9400ZZMAMCU1">
+		<X>380361</X>
+		<Y>397310</Y>
+	</Row>
+	<Row name="Milnrow, Kingsway (Manchester Metrolink)" id="9400ZZMAKNY1">
+		<X>391946</X>
+		<Y>412718</Y>
+	</Row>
+	<Row name="Milnrow, Kingsway (Manchester Metrolink)" id="9400ZZMAKNY2">
+		<X>391878</X>
+		<Y>412750</Y>
+	</Row>
+	<Row name="Milnrow, Milnrow (Manchester Metrolink)" id="9400ZZMAMIL1">
+		<X>392688</X>
+		<Y>412387</Y>
+	</Row>
+	<Row name="Milnrow, Milnrow (Manchester Metrolink)" id="9400ZZMAMIL2">
+		<X>392701</X>
+		<Y>412391</Y>
+	</Row>
+	<Row name="Monsall, Monsall Station (Manchester Metrolink)" id="9400ZZMAMON1">
+		<X>386127</X>
+		<Y>400513</Y>
+	</Row>
+	<Row name="Monsall, Monsall Station (Manchester Metrolink)" id="9400ZZMAMON2">
+		<X>386127</X>
+		<Y>400504</Y>
+	</Row>
+	<Row name="Navigation Road, Navigation Road (Manchester Metrolink)" id="9400ZZMANAV1">
+		<X>377268</X>
+		<Y>388842</Y>
+	</Row>
+	<Row name="New Islington, New Islington (Manchester Metrolink)" id="9400ZZMANIS1">
+		<X>385513</X>
+		<Y>398293</Y>
+	</Row>
+	<Row name="New Islington, New Islington (Manchester Metrolink)" id="9400ZZMANIS2">
+		<X>385509</X>
+		<Y>398273</Y>
+	</Row>
+	<Row name="Newbold, Newbold (Manchester Metrolink)" id="9400ZZMANBD1">
+		<X>391123</X>
+		<Y>412993</Y>
+	</Row>
+	<Row name="Newbold, Newbold (Manchester Metrolink)" id="9400ZZMANBD2">
+		<X>391144</X>
+		<Y>412989</Y>
+	</Row>
+	<Row name="Newhey, Newhey (Manchester Metrolink)" id="9400ZZMANHY1">
+		<X>393813</X>
+		<Y>411589</Y>
+	</Row>
+	<Row name="Newhey, Newhey (Manchester Metrolink)" id="9400ZZMANHY2">
+		<X>393813</X>
+		<Y>411602</Y>
+	</Row>
+	<Row name="Newton Heath, Central Park Station (Manchester Metrolink)" id="9400ZZMACTP1">
+		<X>386886</X>
+		<Y>400567</Y>
+	</Row>
+	<Row name="Newton Heath, Central Park Station (Manchester Metrolink)" id="9400ZZMACTP2">
+		<X>386887</X>
+		<Y>400558</Y>
+	</Row>
+	<Row name="Newton Heath, Newton Heath &amp; Moston (Manchester Metrolink)" id="9400ZZMANEW1">
+		<X>387916</X>
+		<Y>400849</Y>
+	</Row>
+	<Row name="Old Trafford, Old Trafford (Manchester Metrolink)" id="9400ZZMAOLD1">
+		<X>381175</X>
+		<Y>395550</Y>
+	</Row>
+	<Row name="Old Trafford, Old Trafford (Manchester Metrolink)" id="9400ZZMAOLD2">
+		<X>381195</X>
+		<Y>395541</Y>
+	</Row>
+	<Row name="Oldham Mumps, Oldham Mumps (Manchester Metrolink)" id="9400ZZMAOMP1">
+		<X>393258</X>
+		<Y>405098</Y>
+	</Row>
+	<Row name="Oldham Mumps, Oldham Mumps (Manchester Metrolink)" id="9400ZZMAOMP2">
+		<X>393239</X>
+		<Y>405085</Y>
+	</Row>
+	<Row name="Piccadilly Gardens, Piccadilly Gardens (Manchester Metrolink)" id="9400ZZMAPGD1">
+		<X>384366</X>
+		<Y>398201</Y>
+	</Row>
+	<Row name="Piccadilly Gardens, Piccadilly Gardens (Manchester Metrolink)" id="9400ZZMAPGD2">
+		<X>384366</X>
+		<Y>398197</Y>
+	</Row>
+	<Row name="Prestwich, Prestwich (Manchester Metrolink)" id="9400ZZMAPWC1">
+		<X>381407</X>
+		<Y>404105</Y>
+	</Row>
+	<Row name="Prestwich, Prestwich (Manchester Metrolink)" id="9400ZZMAPWC2">
+		<X>381417</X>
+		<Y>404115</Y>
+	</Row>
+	<Row name="Radcliffe, Radcliffe (Manchester Metrolink)" id="9400ZZMARAD1">
+		<X>378827</X>
+		<Y>407354</Y>
+	</Row>
+	<Row name="Radcliffe, Radcliffe (Manchester Metrolink)" id="9400ZZMARAD2">
+		<X>378839</X>
+		<Y>407358</Y>
+	</Row>
+	<Row name="Rochdale, Rochdale Railway Station (Manchester Metrolink)" id="9400ZZMARRS1">
+		<X>389876</X>
+		<Y>412731</Y>
+	</Row>
+	<Row name="Rochdale, Rochdale Railway Station (Manchester Metrolink)" id="9400ZZMARRS2">
+		<X>389882</X>
+		<Y>412726</Y>
+	</Row>
+	<Row name="Sale, Dane Road (Manchester Metrolink)" id="9400ZZMADNE1">
+		<X>379398</X>
+		<Y>392651</Y>
+	</Row>
+	<Row name="Sale, Dane Road (Manchester Metrolink)" id="9400ZZMADNE2">
+		<X>379409</X>
+		<Y>392646</Y>
+	</Row>
+	<Row name="Sale, Sale (Manchester Metrolink)" id="9400ZZMASLE1">
+		<X>378893</X>
+		<Y>391973</Y>
+	</Row>
+	<Row name="Sale, Sale (Manchester Metrolink)" id="9400ZZMASLE2">
+		<X>378882</X>
+		<Y>391979</Y>
+	</Row>
+	<Row name="Salford Quays, Anchorage (Manchester Metrolink)" id="9400ZZMAANC1">
+		<X>381109</X>
+		<Y>397541</Y>
+	</Row>
+	<Row name="Salford Quays, Anchorage (Manchester Metrolink)" id="9400ZZMAANC2">
+		<X>381118</X>
+		<Y>397545</Y>
+	</Row>
+	<Row name="Salford Quays, Exchange Quay (Manchester Metrolink)" id="9400ZZMAEXC1">
+		<X>381349</X>
+		<Y>396811</Y>
+	</Row>
+	<Row name="Salford Quays, Exchange Quay (Manchester Metrolink)" id="9400ZZMAEXC2">
+		<X>381358</X>
+		<Y>396808</Y>
+	</Row>
+	<Row name="Salford Quays, Pomona (Manchester Metrolink)" id="9400ZZMAPOM1">
+		<X>381647</X>
+		<Y>396535</Y>
+	</Row>
+	<Row name="Salford Quays, Pomona (Manchester Metrolink)" id="9400ZZMAPOM2">
+		<X>381647</X>
+		<Y>396531</Y>
+	</Row>
+	<Row name="Salford Quays, Salford Quays (Manchester Metrolink)" id="9400ZZMASQY1">
+		<X>381240</X>
+		<Y>397101</Y>
+	</Row>
+	<Row name="Salford Quays, Salford Quays (Manchester Metrolink)" id="9400ZZMASQY2">
+		<X>381250</X>
+		<Y>397100</Y>
+	</Row>
+	<Row name="Shaw, Shaw and Crompton (Manchester Metrolink)" id="9400ZZMASHA1">
+		<X>394163</X>
+		<Y>408861</Y>
+	</Row>
+	<Row name="Shaw, Shaw and Crompton (Manchester Metrolink)" id="9400ZZMASHA2">
+		<X>394171</X>
+		<Y>408868</Y>
+	</Row>
+	<Row name="Sportcity, Etihad Campus (Manchester Metrolink)" id="9400ZZMAECS1">
+		<X>386679</X>
+		<Y>398758</Y>
+	</Row>
+	<Row name="Sportcity, Etihad Campus (Manchester Metrolink)" id="9400ZZMAECS2">
+		<X>386784</X>
+		<Y>398758</Y>
+	</Row>
+	<Row name="Sportcity, Velopark (Manchester Metrolink)" id="9400ZZMAVPK1">
+		<X>387270</X>
+		<Y>398410</Y>
+	</Row>
+	<Row name="Sportcity, Velopark (Manchester Metrolink)" id="9400ZZMAVPK2">
+		<X>387282</X>
+		<Y>398403</Y>
+	</Row>
+	<Row name="Stretford, Stretford (Manchester Metrolink)" id="9400ZZMASFD1">
+		<X>379932</X>
+		<Y>394413</Y>
+	</Row>
+	<Row name="Stretford, Stretford (Manchester Metrolink)" id="9400ZZMASFD2">
+		<X>379920</X>
+		<Y>394419</Y>
+	</Row>
+	<Row name="The Lowry, Harbour City (Manchester Metrolink)" id="9400ZZMAHCY1">
+		<X>380733</X>
+		<Y>397516</Y>
+	</Row>
+	<Row name="The Lowry, Harbour City (Manchester Metrolink)" id="9400ZZMAHCY2">
+		<X>380879</X>
+		<Y>397548</Y>
+	</Row>
+	<Row name="Timperley, Timperley (Manchester Metrolink)" id="9400ZZMATIM1">
+		<X>377603</X>
+		<Y>389764</Y>
+	</Row>
+	<Row name="Timperley, Timperley (Manchester Metrolink)" id="9400ZZMATIM2">
+		<X>377593</X>
+		<Y>389770</Y>
+	</Row>
+	<Row name="Trafford Bar, Trafford Bar (Manchester Metrolink)" id="9400ZZMATRA1">
+		<X>381699</X>
+		<Y>396163</Y>
+	</Row>
+	<Row name="Trafford Bar, Trafford Bar (Manchester Metrolink)" id="9400ZZMATRA2">
+		<X>381705</X>
+		<Y>396154</Y>
+	</Row>
+	<Row name="Weaste, Weaste (Manchester Metrolink)" id="9400ZZMAWST1">
+		<X>379676</X>
+		<Y>398453</Y>
+	</Row>
+	<Row name="Weaste, Weaste (Manchester Metrolink)" id="9400ZZMAWST2">
+		<X>379679</X>
+		<Y>398462</Y>
+	</Row>
+	<Row name="West Didsbury, Burton Road (Manchester Metrolink)" id="9400ZZMABNR1">
+		<X>384108</X>
+		<Y>392506</Y>
+	</Row>
+	<Row name="West Didsbury, Burton Road (Manchester Metrolink)" id="9400ZZMABNR2">
+		<X>384117</X>
+		<Y>392512</Y>
+	</Row>
+	<Row name="West Didsbury, West Didsbury (Manchester Metrolink)" id="9400ZZMAWTD1">
+		<X>384398</X>
+		<Y>391999</Y>
+	</Row>
+	<Row name="West Didsbury, West Didsbury (Manchester Metrolink)" id="9400ZZMAWTD2">
+		<X>384413</X>
+		<Y>392002</Y>
+	</Row>
+	<Row name="White Gate, South Chadderton (Manchester Metrolink)" id="9400ZZMASCH1">
+		<X>390460</X>
+		<Y>403322</Y>
+	</Row>
+	<Row name="White Gate, South Chadderton (Manchester Metrolink)" id="9400ZZMASCH2">
+		<X>390472</X>
+		<Y>403321</Y>
+	</Row>
+	<Row name="Whitefield, Whitefield (Manchester Metrolink)" id="9400ZZMAWFD1">
+		<X>380529</X>
+		<Y>406104</Y>
+	</Row>
+	<Row name="Whitefield, Whitefield (Manchester Metrolink)" id="9400ZZMAWFD2">
+		<X>380535</X>
+		<Y>406113</Y>
+	</Row>
+	<Row name="Withington, Withington (Manchester Metrolink)" id="9400ZZMAWIT1">
+		<X>383535</X>
+		<Y>392909</Y>
+	</Row>
+	<Row name="Withington, Withington (Manchester Metrolink)" id="9400ZZMAWIT2">
+		<X>383529</X>
+		<Y>392923</Y>
+	</Row>
+</Root>

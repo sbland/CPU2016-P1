@@ -97,8 +97,10 @@
     <None Include="Assets\Scripts\XML\TramSchedule.xml" />
     <None Include="Assets\Scripts\XML\TramSchedule_Short.xml" />
     <None Include="Assets\Scripts\XML\Tram_Stops_V2.xml" />
+    <None Include="Assets\Scripts\XML\Tram_Stops_V3.xml" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.txt" />
     <None Include="Assets\Scripts\XML\Ward_XML_Schema.xml" />
+    <None Include="Assets\Scripts\XML\tramStopSchema.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

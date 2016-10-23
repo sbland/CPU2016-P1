@@ -6,18 +6,20 @@ public class TramStop
 {
 
     public string tramStopName;
-    public float latitude;
-    public float longitude;
+    public string tramStopId;
+    public float coordX;
+    public float coordY;
     public Dictionary<string, float> tramStopData;
     GameObject cylinder;
     float cylinderSize = 300 / GisDataStatics.scale; // This sets the size of the cylinder based on the scale of the model
 
-    public TramStop(string tramStopNameIn, float latitudeIn, float longitudeIn, Dictionary<string, float> tramStopDataIn)
+    public TramStop(string tramStopNameIn,string tramStopIdIn, float coordXIn, float coordYIn)
     {
         tramStopName = tramStopNameIn;
-        latitude = latitudeIn;
-        longitude = longitudeIn;
-        tramStopData = tramStopDataIn;
+        tramStopId = tramStopIdIn;
+        coordX = coordXIn;
+        coordY = coordYIn;
+       
         
     }
 
@@ -27,22 +29,22 @@ public class TramStop
         cylinder.name = tramStopName;
 
         //offset and rescale
-        latitude = latitude - GisDataStatics.offsetX;
-        longitude = longitude - GisDataStatics.offsetY;
+        coordX = coordX - GisDataStatics.offsetX;
+        coordY = coordY - GisDataStatics.offsetY;
+
+
+        coordX = coordX / GisDataStatics.scale;
+        coordY = coordY / GisDataStatics.scale;
         
 
-        latitude = latitude / GisDataStatics.scale;
-        longitude = longitude / GisDataStatics.scale;
-        
 
-
-        cylinder.transform.position = new Vector3(latitude, 5, longitude);
+        cylinder.transform.position = new Vector3(coordX, 5, coordY);
         cylinder.transform.localScale = new Vector3(cylinderSize, 5, cylinderSize);
     }
 
     public void UpdateFromData()
     {
-        cylinder.transform.position = new Vector3(latitude, 10, longitude);
+        cylinder.transform.position = new Vector3(coordX, 10, coordY);
         cylinder.transform.localScale = new Vector3(cylinderSize, 10, cylinderSize);
     }
 }

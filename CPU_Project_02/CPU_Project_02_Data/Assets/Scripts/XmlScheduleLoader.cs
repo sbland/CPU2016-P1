@@ -8,6 +8,8 @@ public class XmlScheduleData
 {
     //public static List<Route> routes = new List<Route>();
     public static Dictionary<string, Route> routes = new Dictionary<string, Route>();
+    public static Dictionary<string, TramStop> tramStops = new Dictionary<string, TramStop>();
+
     public static bool loadingData = true;
     
 }
@@ -18,7 +20,8 @@ public class Route
 {
     public string routeName;
     public string serviceID;
-    public List<Trip> trips = new List<Trip>();
+    public List<TramStop> stopsOnRoute = new List<TramStop>();
+    public Dictionary<string, Trip> trips = new Dictionary<string, Trip>();
 }
 
 public class Trip
@@ -41,16 +44,50 @@ public class ScheduledStop
 public class XmlScheduleLoader : MonoBehaviour {
 
     public TextAsset routeScheduleXml;
+    public TextAsset tramRoutesXml;
 
     // Use this for initialization
     void Start () {
         loadScheduleData();
+        loadTramRouteData();
     }
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+
+    void loadTramRouteData()
+    {
+        XmlDocument tramRoutesXmlData = new XmlDocument(); //new xml var to store xml doc 
+
+        try { tramRoutesXmlData.LoadXml(tramRoutesXml.text); }
+        catch { Debug.Log("Failed to load xml file"); } //load the xml doc into the xml var
+
+        XmlNodeList tramStopList = tramRoutesXmlData.DocumentElement.ChildNodes;
+
+        foreach (XmlNode stopPointer in tramStopList)
+        {
+            int coordX = int.Parse(stopPointer["X"].InnerText);
+            int coordY = int.Parse(stopPointer["Y"].InnerText);
+            string stopName = stopPointer.Attributes["name"].Value;
+            string stopId = stopPointer.Attributes["id"].Value;
+            TramStop tramStop = new TramStop(stopName, stopId, coordX, coordY);
+            //Debug.Log("Stop Name " + stopName);
+            try
+            {
+                XmlScheduleData.tramStops.Add(stopId, tramStop);
+            }
+            catch
+            {
+                Debug.Log("Couldnt add " + stopName);
+            }
+            
+            //tramStop.Initiate();
+        }
+
+    }
 
     void loadScheduleData()
     {
@@ -100,11 +137,11 @@ public class XmlScheduleLoader : MonoBehaviour {
 
 
                 //add to trip list
-                route.trips.Add(trip);
+                route.trips.Add(trip.tripId, trip);
 
                 //Start timer to commence trip
-                float startTime = float.Parse(tripPointer.ChildNodes[0].InnerText);
-                StartCoroutine(DeferedTripStarter(startTime - TimeInfo.currentTime, trip.tripId));
+                float tripStartTime = float.Parse(tripPointer.ChildNodes[0].InnerText);
+                StartCoroutine(DeferedTripStarter(tripStartTime - TimeInfo.currentTime, trip.tripId, route.serviceID));
 
                 tripCounter += 1;
             }
@@ -118,18 +155,21 @@ public class XmlScheduleLoader : MonoBehaviour {
         Time.timeScale = 1;
     }
 
-    public IEnumerator DeferedTripStarter(float startTime, string tripName)
+    public IEnumerator DeferedTripStarter(float startTime, string tripId, string routeId)
     {
         yield return new WaitForSeconds(startTime * TimeInfo.secondsEqualToHour);
-        Debug.Log("Start new trip" + tripName);
+        Debug.Log("Start new trip " + tripId + " on route " + routeId);
         int tramsLeft = TramData.tramListAvailable.Count;
         if(tramsLeft >0)
         {
             TramClass tram = TramData.tramListAvailable[tramsLeft - 1];
             TramData.tramListAvailable.RemoveAt(tramsLeft - 1);
-            Debug.Log(tramsLeft-1);
+            Debug.Log("Trams left " + (tramsLeft-1));
+            tram.currentTrip = XmlScheduleData.routes[routeId].trips[tripId];
+            tram.currentRoute = XmlScheduleData.routes[routeId];
+            tram.startTrip();
         }
-        else
+        else //no trams left
         {
             Debug.Log("No trams left");
         }

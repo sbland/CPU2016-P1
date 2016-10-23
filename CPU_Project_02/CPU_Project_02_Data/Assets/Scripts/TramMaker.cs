@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿///
+///Loads all trams into list at start
+///
+
+
+
+
+
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 

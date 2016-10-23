@@ -55,7 +55,6 @@ public class GisData : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
           
-
             foreach (Ward ward in GisDataObjects.wards)
             {
                 ward.UpdateFromData("travelByBus");
@@ -128,12 +127,7 @@ public class GisData : MonoBehaviour
                     Ward newWard = new Ward(rowName, posLat, posLong, censusDataDict);
                     GisDataObjects.wards.Add(newWard);
                     newWard.Initiate();
-                    break;
-                case "Tram_Stops":
-                    TramStop newTramStop = new TramStop(rowName, posLat, posLong, censusDataDict);
-                    GisDataObjects.tramStops.Add(newTramStop);
-                    newTramStop.Initiate();
-                    break;
+                    break;                
                 default:
                     break;
             }
