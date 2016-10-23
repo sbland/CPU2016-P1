@@ -122,6 +122,17 @@ public class XmlScheduleLoader : MonoBehaviour {
     {
         yield return new WaitForSeconds(startTime * TimeInfo.secondsEqualToHour);
         Debug.Log("Start new trip" + tripName);
+        int tramsLeft = TramData.tramListAvailable.Count;
+        if(tramsLeft >0)
+        {
+            TramClass tram = TramData.tramListAvailable[tramsLeft - 1];
+            TramData.tramListAvailable.RemoveAt(tramsLeft - 1);
+            Debug.Log(tramsLeft);
+        }
+        else
+        {
+            Debug.Log("No trams left");
+        }
 
         yield break;
     }
