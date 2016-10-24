@@ -93,6 +93,7 @@
     <None Include="Assets\Scripts\XML\BusStop_XML_Schema.xml" />
     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData.xml" />
     <None Include="Assets\Scripts\XML\GreaterManchester_WARD_Points_PlusData_ver_02.xml" />
+    <None Include="Assets\Scripts\XML\RouteStopList.xml" />
     <None Include="Assets\Scripts\XML\Tram Stops.xml" />
     <None Include="Assets\Scripts\XML\TramSchedule.xml" />
     <None Include="Assets\Scripts\XML\TramSchedule_Short.xml" />

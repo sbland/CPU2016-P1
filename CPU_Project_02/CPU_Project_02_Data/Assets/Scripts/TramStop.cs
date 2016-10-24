@@ -25,6 +25,12 @@ public class TramStop
 
     public void Initiate()
     {
+        //Add seld to master dictionary of all tram stops
+        try { XmlScheduleData.tramStops.Add(tramStopId, this); }
+        catch { Debug.Log("Failed to add " + tramStopName + " to dictionary"); }
+
+
+        //create cyclinder to represent tram stop
         cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
         cylinder.name = tramStopName;
 
@@ -35,11 +41,13 @@ public class TramStop
 
         coordX = coordX / GisDataStatics.scale;
         coordY = coordY / GisDataStatics.scale;
-        
+
 
 
         cylinder.transform.position = new Vector3(coordX, 5, coordY);
         cylinder.transform.localScale = new Vector3(cylinderSize, 5, cylinderSize);
+
+
     }
 
     public void UpdateFromData()

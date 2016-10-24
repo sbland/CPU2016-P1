@@ -7,12 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-public class GisDataStatics
-{
-    public static float scale;
-    public static float offsetX;
-    public static float offsetY;
-}
+
 
 public class GisDataObjects
 {
@@ -23,9 +18,7 @@ public class GisDataObjects
 public class GisData : MonoBehaviour
 {
     
-    public float scale = 500;
-    public float offsetX = 397000;
-    public float offsetY = 395000;
+
 
     public TextAsset[] gisDataFiles;
     public TextMesh textTitle;
@@ -38,13 +31,6 @@ public class GisData : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Assigns the values set in the unity editor to the standard c# class above. These variables can then be accessed from other classes.
-        GisDataStatics.scale = scale;
-        GisDataStatics.offsetX = offsetX;
-        GisDataStatics.offsetY = offsetY;
-
-      
-
         LoadGisData(gisDataFiles); //On start load in the data from the xml files
 
     }

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Route routeName ="ALTRINCHAM - MANCHESTER - BURY" serviceID ="Serv000001">
+
+       <Stop1>9400ZZMAWDS1</Stop1>
+       <Stop2>9400ZZMAALT1</Stop2>
+       <Stop3>9400ZZMANAV1</Stop3>
+       <Stop4>9400ZZMATIM2</Stop4>
+       <Stop5>9400ZZMABKS2</Stop5>
+       <Stop6>9400ZZMAABM1</Stop6>
+       <Stop7>9400ZZMASLE2</Stop7>
+       <Stop8>9400ZZMADNE1</Stop8>
+       <Stop9>9400ZZMACRU1</Stop9>
+      <Stop10>9400ZZMASFD2</Stop10>
+      <Stop11>9400ZZMABOW1</Stop11>
+      <Stop12>9400ZZMAOLD1</Stop12>
+      <Stop13>9400ZZMAHEA1</Stop13>
+      <Stop14>9400ZZMATRA1</Stop14>
+      <Stop15>9400ZZMAPWC1</Stop15>
+      <Stop16>9400ZZMACRN1</Stop16>
+      <Stop17>9400ZZMABOB1</Stop17>
+      <Stop18>9400ZZMAWFD1</Stop18>
+      <Stop19>9400ZZMAGMX1</Stop19>
+      <Stop20>9400ZZMARAD1</Stop20>
+      <Stop21>9400ZZMASTP2</Stop21>
+      <Stop22>9400ZZMABUR1</Stop22>
+      <Stop23>9400ZZMAMKT2</Stop23>
+      <Stop24>9400ZZMASHU1</Stop24>
+      <Stop25>9400ZZMAVIC2</Stop25>
+  </Route>
+  <Route routeName ="ALTRINCHAM - MANCHESTER" serviceID ="Serv000005">
+
+    <Stop1>9400ZZMAWDS1</Stop1>
+    <Stop2>9400ZZMAALT1</Stop2>
+    <Stop3>9400ZZMANAV1</Stop3>
+    <Stop4>9400ZZMATIM2</Stop4>
+    <Stop5>9400ZZMABKS2</Stop5>
+    <Stop6>9400ZZMAABM1</Stop6>
+    <Stop7>9400ZZMASLE2</Stop7>
+    <Stop8>9400ZZMADNE1</Stop8>
+    <Stop9>9400ZZMACRU1</Stop9>
+    <Stop10>9400ZZMASFD2</Stop10>
+    <Stop11>9400ZZMABOW1</Stop11>
+    <Stop12>9400ZZMAOLD1</Stop12>
+    <Stop13>9400ZZMAHEA1</Stop13>
+    <Stop14>9400ZZMATRA1</Stop14>
+    <Stop15>9400ZZMAPWC1</Stop15>
+    <Stop16>9400ZZMACRN1</Stop16>
+    <Stop17>9400ZZMABOB1</Stop17>
+    <Stop18>9400ZZMAWFD1</Stop18>
+    <Stop19>9400ZZMAGMX1</Stop19>
+    <Stop20>9400ZZMARAD1</Stop20>
+    <Stop21>9400ZZMASTP2</Stop21>
+    <Stop22>9400ZZMABUR1</Stop22>
+    <Stop23>9400ZZMAMKT2</Stop23>
+    <Stop24>9400ZZMASHU1</Stop24>
+    <Stop25>9400ZZMAVIC2</Stop25>
+    
+  </Route>
+</Root>

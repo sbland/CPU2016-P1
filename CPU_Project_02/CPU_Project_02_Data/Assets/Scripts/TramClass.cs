@@ -19,8 +19,8 @@ public class TramClass {
 
     public void startTrip()
     {
-        tramObject.transform.position = new Vector3(XmlScheduleData.tramStops["9400ZZMAAMO1"].coordX,0, XmlScheduleData.tramStops["9400ZZMAAMO1"].coordY);
-        
+        //tramObject.transform.position = new Vector3(XmlScheduleData.tramStops["9400ZZMAAMO1"].coordX,0, XmlScheduleData.tramStops["9400ZZMAAMO1"].coordY);
+        //tramObject.transform.position = new Vector3(currentRoute.stopsOnRoute["Stop1"].coordX, 0, currentRoute.stopsOnRoute["Stop1"].coordY);
 
     }
     
