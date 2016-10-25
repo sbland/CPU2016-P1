@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 public class TramData
 {
-    public static List<TramClass> tramListAvailable = new List<TramClass>();
+    public static List<GameObject> tramListAvailable = new List<GameObject>();
 
 }
 
@@ -25,10 +25,21 @@ public class TramMaker : MonoBehaviour {
     void Start () {
         while (tempCounter <= tramCount)
         {
-            TramClass tram = new TramClass();
+            GameObject tram = new GameObject();
+            GameObject tramGeometry = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+            tram.name = "Tram_" + tempCounter;
+            tramGeometry.name = "Tram_" + tempCounter + "_Geometry";
+            tramGeometry.transform.parent = tram.transform;
+
             TramData.tramListAvailable.Add(tram);
-            tram.initiate();
+            TramClass tramComponent = tram.AddComponent<TramClass>();
+            tramComponent.initiate();
             tempCounter++;
+
+            //TramClass tram = new TramClass();
+            //TramData.tramListAvailable.Add(tram);
+            //tram.initiate();
+            //tempCounter++;
         }
     }
 	

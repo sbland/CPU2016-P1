@@ -11,11 +11,6 @@
         <Stop18>7.08333333333333</Stop18>
         <Stop20>7.13333333333333</Stop20>
         <Stop22>7.16666666666667</Stop22>
-        <Stop26>26</Stop26>
-        <Stop27>27</Stop27>
-        <Stop28>28</Stop28>
-        <Stop29>29</Stop29>
-        <Stop30>30</Stop30>
       </Row>
       <Row id="Trip000002">
         <Stop6>7.1</Stop6>
@@ -27,11 +22,6 @@
         <Stop18>7.28333333333333</Stop18>
         <Stop20>7.33333333333333</Stop20>
         <Stop22>7.36666666666667</Stop22>
-        <Stop26>26</Stop26>
-        <Stop27>27</Stop27>
-        <Stop28>28</Stop28>
-        <Stop29>29</Stop29>
-        <Stop30>30</Stop30>
       </Row>
       <Row id="Trip000003">
         <Stop6>7.3</Stop6>
