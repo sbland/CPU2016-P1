@@ -31,7 +31,7 @@ public class Route
 
 public class Trip
 {
-    public string tripId;
+    public string tripId; // reference id from xml
     public string parentServiceID;
     public int tripCountNo;
     public List<ScheduledStop> scheduledStopTimes = new List<ScheduledStop>();
@@ -193,7 +193,7 @@ public class XmlScheduleLoader : MonoBehaviour {
             {
                 Trip trip = new Trip();
                 trip.tripId = tripPointer.Attributes["id"].Value;
-                trip.tripCountNo = tripCounter;
+                //trip.tripCountNo = tripCounter;
                 trip.parentServiceID = route.serviceID;
 
                 int stopCounter = 0;
@@ -248,6 +248,8 @@ public class XmlScheduleLoader : MonoBehaviour {
 
     public IEnumerator DeferedTripStarter(float startTime, string tripId, string routeId)
     {//Sets a time delay for each trip to begin based on the trip start time
+
+
         yield return new WaitForSeconds(startTime * TimeInfo.secondsEqualToHour);
         Debug.Log("Start new trip " + tripId + " on route " + routeId);
         int tramsLeft = TramData.tramListAvailable.Count;
@@ -263,15 +265,7 @@ public class XmlScheduleLoader : MonoBehaviour {
             tramComponent.currentRoute = XmlScheduleData.routes[routeId];
             tramComponent.StartTrip();
 
-
-
-
-            //TramClass tram = TramData.tramListAvailable[tramsLeft - 1];
-            //TramData.tramListAvailable.RemoveAt(tramsLeft - 1);
-            //Debug.Log("Trams left " + (tramsLeft-1));
-            //tram.currentTrip = XmlScheduleData.routes[routeId].trips[tripId];
-            //tram.currentRoute = XmlScheduleData.routes[routeId];
-            //tram.StartTrip();
+                        
         }
         else //no trams left
         {

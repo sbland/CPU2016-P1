@@ -78,6 +78,8 @@ public class TramClass : MonoBehaviour{
     {
         previousStopId = targetStopId;
         previousStop = targetStop;
+
+        
         ChangeTargetStation();
 
         try
@@ -95,7 +97,7 @@ public class TramClass : MonoBehaviour{
     public void ChangeTargetStation()
     {
 
-        if (targetStopId == currentTrip.tripCountNo) //end of line
+        if (targetStopId == (currentTrip.tripCountNo - 1)) //end of line
         {
             currentTrip.tripActive = false;
             TramData.tramListAvailable.Add(gameObject);

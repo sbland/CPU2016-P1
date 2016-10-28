@@ -27,6 +27,13 @@ public class TramMaker : MonoBehaviour {
         {
             GameObject tram = new GameObject();
             GameObject tramGeometry = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+
+            tramGeometry.transform.localScale += new Vector3(7,7,7);
+            Renderer objRender = tramGeometry.GetComponent<Renderer>();
+            objRender.material.color = new Color(150, 50, 50);
+
+
+
             tram.name = "Tram_" + tempCounter;
             tramGeometry.name = "Tram_" + tempCounter + "_Geometry";
             tramGeometry.transform.parent = tram.transform;
@@ -36,17 +43,13 @@ public class TramMaker : MonoBehaviour {
             tramComponent.initiate();
             tempCounter++;
 
-            //TramClass tram = new TramClass();
-            //TramData.tramListAvailable.Add(tram);
-            //tram.initiate();
-            //tempCounter++;
         }
     }
 	
-	// Update is called once per frame
-	void Update () {
+	//// Update is called once per frame
+	//void Update () {
 
         
 
-    }
+ //   }
 }
